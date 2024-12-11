@@ -1,0 +1,412 @@
+/* ==========================================================================
+   WooCommerce DropDown Cart static style start
+   ========================================================================== */
+
+.widget_shopping_cart,
+.widget_dunker_core_woo_dropdown_cart {
+	align-items: center;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	position: relative;
+
+	.qodef-widget-dropdown-cart-outer {
+
+		&.qodef-skin--light {
+			background: #000;
+
+			.qodef-m-opener {
+				color: #fff !important;
+			}
+		}
+	}
+
+	li a {
+		background-image: none !important;
+	}
+
+	.qodef-widget-dropdown-cart-inner {
+		align-items: center;
+		display: flex;
+		height: 100%;
+		justify-content: center;
+		color: var(--qode-main-color) !important;
+
+		.qodef-m-posts-not-found {
+			padding: 0 40px;
+			min-width: 248px;
+			text-align: center;
+			@include qodefHeadingStyle();
+			font-size: 14px;
+			font-weight: 700;
+		}
+	}
+
+	.qodef-m-opener-count {
+		position: relative;
+		bottom: 1px;
+		font-family: $heading-font;
+		font-weight: 500;
+		font-size: 16px;
+		color: inherit;
+		padding-left: 10px;
+
+		@include qodefScreenSize1024 {
+			bottom: -1px;
+		}
+	}
+
+	> .widgettitle,
+	.qodef-m-opener {
+		align-items: center;
+		cursor: pointer;
+		display: flex;
+		height: 100%;
+		justify-content: center;
+		margin: 0;
+	}
+
+	.widget_shopping_cart_content,
+	.qodef-widget-dropdown-cart-content {
+		border: 1px solid $border-color;
+		display: block;
+		padding: 24px 0;
+		text-align: left;
+		transition: $opacity-transition, visibility $transition-timing;
+
+		header & {
+			left: auto;
+			opacity: 0 !important;
+			position: absolute;
+			right: 0;
+			top: 100%;
+			visibility: hidden !important;
+
+			.touchevents & { // prevent opening DD on mobile
+				display: none;
+			}
+		}
+
+		.blockUI {
+			display: none !important;
+		}
+	}
+
+	.woocommerce-mini-cart,
+	.qodef-woo-mini-cart {
+		padding: 0 40px !important;
+		margin-top: 16px;
+
+		header & {
+			width: 433px;
+		}
+
+		.woocommerce-mini-cart-item,
+		.qodef-woo-mini-cart-item {
+			margin: 0 0 20px 0;
+			position: relative;
+
+			&:last-of-type {
+				margin: 0;
+			}
+
+			img {
+				margin: 0 20px 0 0;
+				width: 84px;
+				height: 84px;
+				object-fit: cover;
+				border: 1px solid $border-color;
+			}
+
+			.remove {
+				position: absolute;
+				top: 12px;
+				right: 0;
+				z-index: 5;
+				background: none;
+
+				.qodef-svg--close {
+					display: block;
+
+					line {
+						stroke-dasharray: 16;
+						stroke-dashoffset: 32;
+						transition: stroke-dashoffset .6s $special-easing;
+
+						&:nth-of-type(2) {
+							transition-delay: .3s;
+						}
+					}
+				}
+
+				&:hover {
+
+					.qodef-svg--close {
+
+						line {
+							stroke-dashoffset: 0;
+						}
+					}
+				}
+			}
+
+			.variation {
+				display: none;
+			}
+		}
+	}
+
+	.woocommerce-mini-cart-item {
+
+		img {
+			float: left;
+			vertical-align: top;
+		}
+
+		a {
+			@include qodefHeadingStyle($heading: h5, $with-color: false); // use same as in loop template
+
+			display: block;
+			background: none !important; // Remove underline on hover;
+		}
+
+		&:after {
+			clear: both;
+			content: '';
+			display: table;
+		}
+	}
+
+	.qodef-woo-mini-cart {
+		max-height: 50vh;
+		overflow: hidden;
+		position: relative;
+
+		.qodef-woo-mini-cart-item {
+			display: flex;
+
+			.qodef-e-image {
+				flex-shrink: 0;
+
+				a {
+					display: block;
+				}
+			}
+
+			.qodef-e-content {
+				padding: 0 20px 0 0;
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+
+			.qodef-e-title {
+				margin: 0;
+				@include qodefMenuTypographyStyle(900);
+			}
+
+			.qodef-e-categories {
+				@include qodefParagraphStyle();
+				font-size: 14px;
+				text-transform: capitalize;
+				color: var(--qode-dim-gray-color);
+				margin-top: 3px;
+			}
+
+			.qodef-e-price {
+				margin: 0;
+				@include qodefMenuTypographyStyle(900);
+			}
+		}
+	}
+
+	.woocommerce-mini-cart__total,
+	.qodef-m-order-details {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 20px;
+		margin-bottom: 40px;
+		padding: 20px 40px;
+		background: $additional-background-color;
+
+		strong {
+			@include qodefHeadingStyle($heading: h6, $with-color: false);
+			font-size: 14px;
+		}
+
+		.amount {
+			font-size: 22px;
+			font-weight: 700;
+		}
+	}
+
+	.woocommerce-mini-cart__buttons,
+	.qodef-m-action {
+		align-items: center;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 0;
+		padding: 0 40px 16px !important;
+
+		a {
+			@include qodefButtonDefaultStyle();
+			@include qodefButtonSize(full);
+			@include qodefButtonOutlinedColor();
+
+			&:hover {
+				@include qodefButtonOutlinedHoverColor();
+			}
+		}
+	}
+
+	.woocommerce-mini-cart__buttons {
+		flex-direction: column;
+
+		a {
+			width: 100% !important;
+			justify-content: center;
+
+			&:last-child {
+				margin-top: 5px;
+			}
+		}
+	}
+
+	&:hover {
+
+		.widget_shopping_cart_content,
+		.qodef-widget-dropdown-cart-content {
+
+			header & {
+				opacity: 1 !important;
+				visibility: visible !important;
+			}
+		}
+	}
+}
+
+
+/* ==========================================================================
+   WooCommerce DropDown Cart variable style start
+   ========================================================================== */
+
+@import '../../../../../../../../../../themes/dunker/assets/css/scss/widgets-map';
+
+$local-widgets-area-map: (
+		'': (
+				content-background-color: #ffffff,
+				content-border-color: $border-color,
+				item-title-color: $heading-color,
+				item-title-hover-color: var(--qode-main-color),
+				text-color: $text-color,
+				remove-item-color: $text-color,
+				remove-item-hover-color: var(--qode-main-color),
+				subtotal-color: $heading-color,
+		),
+		'#qodef-page-footer': (
+				content-background-color: #000000,
+				content-border-color: #ffffff,
+				item-title-color: #cccccc,
+				item-title-hover-color: #ffffff,
+				text-color: #cccccc,
+				remove-item-color: #cccccc,
+				remove-item-hover-color: #ffffff,
+				subtotal-color: #cccccc,
+		)
+);
+
+$local-widgets-area-map-merged: non-destructive-map-merge($wp-widgets-area-map, $local-widgets-area-map);
+
+.widget_shopping_cart,
+.widget_dunker_core_woo_dropdown_cart {
+
+	@each $key, $values in $local-widgets-area-map-merged {
+		$wp-widgets-map-merged: map-merge($wp-widgets-map, $values);
+
+		#{$key} & {
+			@if (map-get($wp-widgets-map-merged, 'text-color') != null) {
+				color: map-get($wp-widgets-map-merged, 'text-color');
+			}
+
+			.widget_shopping_cart_content,
+			.qodef-widget-dropdown-cart-content {
+
+				@if (map-get($wp-widgets-map-merged, 'content-background-color') != null) {
+					background-color: map-get($wp-widgets-map-merged, 'content-background-color');
+				}
+
+				@if (map-get($wp-widgets-map-merged, 'content-border-color') != null) {
+					border-color: map-get($wp-widgets-map-merged, 'content-border-color');
+				}
+			}
+
+			.woocommerce-mini-cart-item {
+
+				a {
+					@if (map-get($wp-widgets-map-merged, 'item-title-color') != null) {
+						color: map-get($wp-widgets-map-merged, 'item-title-color');
+					}
+
+					&:hover {
+						@if (map-get($wp-widgets-map-merged, 'item-title-hover-color') != null) {
+							color: map-get($wp-widgets-map-merged, 'item-title-hover-color');
+						}
+					}
+				}
+			}
+
+			.qodef-woo-mini-cart {
+
+				.qodef-e-title {
+
+					a {
+						@if (map-get($wp-widgets-map-merged, 'item-title-color') != null) {
+							color: map-get($wp-widgets-map-merged, 'item-title-color');
+						}
+
+						&:hover {
+							@if (map-get($wp-widgets-map-merged, 'item-title-hover-color') != null) {
+								color: map-get($wp-widgets-map-merged, 'item-title-hover-color');
+							}
+						}
+					}
+				}
+			}
+
+			.woocommerce-mini-cart,
+			.qodef-woo-mini-cart {
+
+				.woocommerce-mini-cart-item,
+				.qodef-woo-mini-cart-item {
+					margin-bottom: 20px !important; //Override widget lists defaults
+
+					.remove {
+						@if (map-get($wp-widgets-map-merged, 'remove-item-color') != null) {
+							color: map-get($wp-widgets-map-merged, 'remove-item-color');
+						}
+
+						&:hover {
+							@if (map-get($wp-widgets-map-merged, 'remove-item-hover-color') != null) {
+								color: map-get($wp-widgets-map-merged, 'remove-item-hover-color');
+							}
+						}
+					}
+				}
+			}
+
+			.woocommerce-mini-cart__total,
+			.qodef-m-order-details {
+
+				strong {
+					@if (map-get($wp-widgets-map-merged, 'subtotal-color') != null) {
+						color: map-get($wp-widgets-map-merged, 'subtotal-color');
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,156 @@
+/* ==========================================================================
+   Opener icon styles
+   ========================================================================== */
+
+.qodef-opener-icon {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1;
+
+	.qodef-m-icon {
+		position: relative;
+		visibility: visible;
+		display: inline-flex;
+
+		&.qodef--close {
+			position: absolute;
+			top: 0;
+			left: 0;
+			visibility: hidden;
+		}
+	}
+
+	&.qodef-source--icon-pack {
+		font-size: 35px;
+
+		* {
+			display: inline-block;
+			line-height: inherit;
+
+			&:before {
+				display: inline-block;
+				line-height: inherit;
+			}
+		}
+
+		&.qodef--opened {
+
+			.qodef-m-icon {
+
+				&.qodef--open {
+					visibility: hidden;
+				}
+
+				&.qodef--close {
+					visibility: visible;
+				}
+			}
+		}
+	}
+
+	&.qodef-source--svg-path {
+
+		span {
+			position: relative;
+
+			> * {
+				vertical-align: middle;
+			}
+
+			> *,
+			path {
+				fill: currentColor;
+				stroke: currentColor;
+			}
+		}
+
+		&.qodef--opened {
+
+			.qodef-m-icon {
+
+				&.qodef--open {
+					visibility: hidden;
+				}
+
+				&.qodef--close {
+					visibility: visible;
+				}
+			}
+		}
+	}
+
+	&.qodef-source--predefined {
+
+		.qodef-svg--menu {
+			display: block;
+
+			line {
+				stroke-dasharray: 16;
+				stroke-dashoffset: 32;
+				transition: .6s $special-easing;
+
+				&:nth-of-type(2) {
+					transition-delay: .2s;
+				}
+
+				&:nth-of-type(3) {
+					transition-delay: .4s;
+				}
+			}
+		}
+
+		.qodef-svg--close {
+			display: block;
+
+			line {
+				stroke-dasharray: 16;
+				stroke-dashoffset: 32;
+				transition: stroke-dashoffset .6s $special-easing;
+
+				&:nth-of-type(2) {
+					transition-delay: .3s;
+				}
+			}
+		}
+
+		&:hover {
+
+			.qodef-svg--menu,
+			.qodef-svg--close {
+
+				line {
+					stroke-dashoffset: 0;
+				}
+			}
+		}
+
+		.qodef-m-icon {
+
+			&.qodef--open {
+				opacity: 1;
+				transition: opacity .3s ease-out;
+			}
+
+			&.qodef--close {
+				visibility: visible;
+				opacity: 0;
+				transition: opacity .3s ease-out;
+			}
+		}
+
+		&.qodef--opened {
+
+			.qodef-m-icon {
+
+				&.qodef--open {
+					opacity: 0;
+				}
+
+				&.qodef--close {
+					opacity: 1;
+				}
+			}
+		}
+	}
+}

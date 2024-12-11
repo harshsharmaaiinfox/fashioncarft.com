@@ -1,0 +1,33 @@
+.qodef-uncovering-section {
+
+	.qodef-page-content-section {
+
+		> .elementor {
+
+			// html element in elementor iframe
+			@at-root html.elementor-html & {
+				margin-bottom: 0 !important;
+			}
+
+			.elementor-section {
+				z-index: 1;
+			}
+
+			> .elementor-section:last-child {
+				bottom: 0;
+				left: 0;
+				position: fixed;
+				width: 100%;
+				z-index: 0;
+
+				// html element in elementor iframe
+				@at-root html.elementor-html & {
+					bottom: initial;
+					left: initial;
+					position: initial;
+					width: initial;
+				}
+			}
+		}
+	}
+}

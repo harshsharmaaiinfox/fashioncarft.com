@@ -1,0 +1,150 @@
+/* ==========================================================================
+   Product List Info on Image styles
+   ========================================================================== */
+
+.qodef-woo-product-list {
+
+	&.qodef-item-layout--info-on-hover {
+		--qode-pl-padding: 27px 85px 31px 35px;
+
+		&, #qodef-woo-page & {
+
+			li,
+			.qodef-grid-item {
+				border: 0;
+
+				.qodef-e-inner {
+					padding: 0;
+
+					&:hover {
+
+						.qodef-e-media-inner {
+							clip-path: inset(0 0 0 0);
+						}
+					}
+				}
+
+				.qodef-e-media-inner {
+					background-color: #fff;
+					width: 350px;
+					height: 350px;
+					max-width: calc(100% - 70px);
+					max-height: calc(100% - 70px);
+					bottom: 35px;
+					right: 35px;
+					top: auto;
+					left: auto;
+					padding: var(--content-padding);
+					display: flex;
+					justify-content: space-between;
+					align-items: flex-start;
+					z-index: 2;
+					border: 1px solid $border-color;
+					opacity: 1;
+					clip-path: inset(100% 0 0 0);
+					transition: clip-path .5s $special-easing;
+
+					.qodef-e-content {
+						display: flex;
+						flex-direction: column;
+						align-items: flex-start;
+						margin: 0;
+						text-align: left;
+					}
+
+					.qodef-e-top-holder {
+
+						.qodef-e-info {
+
+							a {
+								color: var(--qode-zambezi-color);
+							}
+						}
+					}
+
+					.qodef-e-bottom-holder {
+
+						.qodef-e-info {
+
+							a {
+								color: var(--qode-dim-gray-color);
+							}
+						}
+					}
+
+					.qodef-e-info {
+
+						a:hover {
+							color: var(--qode-main-color);
+						}
+					}
+
+					.price {
+						font-size: 34px;
+					}
+
+					.price del {
+						color: var(--qode-matte-gray-color);
+					}
+
+					.qodef-woo-product-title,
+					.price {
+						color: var(--qode-main-color);
+					}
+
+					.qodef-woo-product-title a:hover {
+						color: var(--qode-main-color);
+					}
+				}
+
+				.qodef-e-media {
+					height: 100%;
+					width: 100%;
+				}
+
+				.qodef-e-woo-button {
+					position: absolute;
+					right: 69px;
+					bottom: 50px;
+
+					.button,
+					.added_to_cart {
+						right: -19px;
+					}
+				}
+
+				.qodef-e-product-label {
+					position: absolute;
+					left: 45px;
+					top: 26px;
+					max-width: 100%;
+					font-family: 'Gochi Hand', sans-serif;
+					font-size: 48px;
+					line-height: #{(76 / 48)}em;
+					z-index: 1;
+					letter-spacing: -.05em;
+					color: var(--qode-main-color);
+				}
+			}
+
+			.qodef-skin--light {
+
+				.qodef-e-product-label {
+					color: #fff;
+				}
+			}
+
+			.qodef-e-top-holder {
+				margin-bottom: 9px;
+			}
+
+			.button, .added_to_cart {
+				bottom: 0;
+			}
+
+			.qodef-e-media-image {
+				opacity: 1 !important;
+			}
+		}
+	}
+}

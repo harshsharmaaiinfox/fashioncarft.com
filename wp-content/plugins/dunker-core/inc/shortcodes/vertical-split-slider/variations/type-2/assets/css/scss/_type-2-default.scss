@@ -1,0 +1,17 @@
+.qodef-vertical-split-slider,
+.qodef-vertical-split-slider-responsive {
+
+	.qodef-content-layout--type-2 {
+
+		.qodef-m-title {
+			margin: 0 0 35px 0;
+		}
+
+		.qodef-icon-list-item {
+
+			&:first-of-type {
+				margin: 0 0 20px 0;
+			}
+		}
+	}
+}

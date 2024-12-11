@@ -1,0 +1,872 @@
+[2024-12-03 13:27:36 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:28:43 : INFO] - Re_Smush_It_Task server status: Online 
+[2024-12-03 13:28:51 : INFO] - A total of 73 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:28:51 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2024-12-03 13:28:51 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2024-12-03 13:28:51 : INFO] - Processing task with ID : 1, and type 'smush' 
+[2024-12-03 13:28:51 : INFO] - Re_Smush_It_Task - Attachment ID : 8523, Started on : December 03, 2024 01:28:46 
+[2024-12-03 13:28:51 : INFO] - File: BelloRosso-Brandmark.png, Compression quality: 92 
+[2024-12-03 13:28:51 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:28:52 : INFO] - Backing up the original image - 2024/11/BelloRosso-Brandmark-updraft-pre-smush-original.png 
+[2024-12-03 13:29:03 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:29:03 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/11/BelloRosso-Brandmark.png.The file was compressed from 41.05 KB to 23.16 KB, saving 43.58 percent, using WP-Optimize 
+[2024-12-03 13:29:03 : INFO] - Completed processing task with ID : 1, and type 'smush' 
+[2024-12-03 13:29:03 : INFO] - Processing task with ID : 2, and type 'smush' 
+[2024-12-03 13:29:03 : INFO] - Re_Smush_It_Task - Attachment ID : 8525, Started on : December 03, 2024 01:28:46 
+[2024-12-03 13:29:03 : INFO] - File: cropped-BelloRosso-Brandmark.png, Compression quality: 92 
+[2024-12-03 13:29:04 : INFO] - Backing up the original image - 2024/11/cropped-BelloRosso-Brandmark-updraft-pre-smush-original.png 
+[2024-12-03 13:29:04 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:29:10 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:29:10 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/11/cropped-BelloRosso-Brandmark.png.The file was compressed from 8.00 KB to 7.05 KB, saving 11.81 percent, using WP-Optimize 
+[2024-12-03 13:29:10 : INFO] - Completed processing task with ID : 2, and type 'smush' 
+[2024-12-03 13:29:10 : INFO] - Processing task with ID : 3, and type 'smush' 
+[2024-12-03 13:29:10 : INFO] - Re_Smush_It_Task - Attachment ID : 8914, Started on : December 03, 2024 01:28:46 
+[2024-12-03 13:29:10 : INFO] - File: BelloRosso-Brandmark-with-Logotype-around-and-Tagline-Cursive.png, Compression quality: 92 
+[2024-12-03 13:29:11 : INFO] - Backing up the original image - 2024/11/BelloRosso-Brandmark-with-Logotype-around-and-Tagline-Cursive-updraft-pre-smush-original.png 
+[2024-12-03 13:29:19 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:29:24 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:29:24 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/11/BelloRosso-Brandmark-with-Logotype-around-and-Tagline-Cursive.png.The file was compressed from 56.08 KB to 27.19 KB, saving 51.52 percent, using WP-Optimize 
+[2024-12-03 13:29:24 : INFO] - Completed processing task with ID : 3, and type 'smush' 
+[2024-12-03 13:29:24 : INFO] - Processing task with ID : 4, and type 'smush' 
+[2024-12-03 13:29:24 : INFO] - Re_Smush_It_Task - Attachment ID : 8915, Started on : December 03, 2024 01:28:46 
+[2024-12-03 13:29:24 : INFO] - File: cropped-BelloRosso-Brandmark-with-Logotype-around-and-Tagline-Cursive.png, Compression quality: 92 
+[2024-12-03 13:29:25 : INFO] - Backing up the original image - 2024/11/cropped-BelloRosso-Brandmark-with-Logotype-around-and-Tagline-Cursive-updraft-pre-smush-original.png 
+[2024-12-03 13:29:33 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:29:37 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:29:37 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/11/cropped-BelloRosso-Brandmark-with-Logotype-around-and-Tagline-Cursive.png.The file was compressed from 34.69 KB to 27.17 KB, saving 21.68 percent, using WP-Optimize 
+[2024-12-03 13:29:37 : INFO] - Completed processing task with ID : 4, and type 'smush' 
+[2024-12-03 13:29:37 : INFO] - Processing task with ID : 5, and type 'smush' 
+[2024-12-03 13:29:37 : INFO] - Re_Smush_It_Task - Attachment ID : 8917, Started on : December 03, 2024 01:28:46 
+[2024-12-03 13:29:37 : INFO] - File: Banner-2.jpg, Compression quality: 92 
+[2024-12-03 13:29:39 : INFO] - Backing up the original image - 2024/11/Banner-2-updraft-pre-smush-original.jpg 
+[2024-12-03 13:29:45 : INFO] - A total of 69 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:29:45 : DEBUG] - Lock option (updraft_lock_smush, wp_options) already existed in the database 
+[2024-12-03 13:29:45 : INFO] - Lock (updraft_lock_smush, wp_options) could not be acquired (it is locked) 
+[2024-12-03 13:29:45 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2024-12-03 13:29:45 : INFO] - Cleaning up tasks of type (smush). A total of 4 tasks will be deleted. 
+[2024-12-03 13:29:54 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:29:54 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/11/Banner-2.jpg.The file was compressed from 544.21 KB to 207.22 KB, saving 61.92 percent, using WP-Optimize 
+[2024-12-03 13:29:54 : INFO] - Completed processing task with ID : 5, and type 'smush' 
+[2024-12-03 13:29:54 : INFO] - Processing task with ID : 6, and type 'smush' 
+[2024-12-03 13:29:54 : INFO] - Re_Smush_It_Task - Attachment ID : 8922, Started on : December 03, 2024 01:28:46 
+[2024-12-03 13:29:54 : INFO] - File: Banner-3-2.jpg, Compression quality: 92 
+[2024-12-03 13:29:56 : INFO] - Backing up the original image - 2024/11/Banner-3-2-updraft-pre-smush-original.jpg 
+[2024-12-03 13:30:01 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:30:11 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:30:11 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/11/Banner-3-2.jpg.The file was compressed from 475.47 KB to 183.79 KB, saving 61.35 percent, using WP-Optimize 
+[2024-12-03 13:30:11 : INFO] - Completed processing task with ID : 6, and type 'smush' 
+[2024-12-03 13:30:11 : INFO] - Processing task with ID : 7, and type 'smush' 
+[2024-12-03 13:30:11 : INFO] - Re_Smush_It_Task - Attachment ID : 8923, Started on : December 03, 2024 01:28:46 
+[2024-12-03 13:30:11 : INFO] - File: Banner-1.jpg, Compression quality: 92 
+[2024-12-03 13:30:13 : INFO] - Backing up the original image - 2024/11/Banner-1-updraft-pre-smush-original.jpg 
+[2024-12-03 13:30:16 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:30:28 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:30:28 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/11/Banner-1.jpg.The file was compressed from 906.45 KB to 272.05 KB, saving 69.99 percent, using WP-Optimize 
+[2024-12-03 13:30:28 : INFO] - Completed processing task with ID : 7, and type 'smush' 
+[2024-12-03 13:30:28 : INFO] - Processing task with ID : 8, and type 'smush' 
+[2024-12-03 13:30:28 : INFO] - Re_Smush_It_Task - Attachment ID : 8990, Started on : December 03, 2024 01:28:46 
+[2024-12-03 13:30:28 : INFO] - File: banner-image.png, Compression quality: 92 
+[2024-12-03 13:30:31 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:30:31 : INFO] - Backing up the original image - 2024/12/banner-image-updraft-pre-smush-original.png 
+[2024-12-03 13:30:45 : INFO] - A total of 66 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:30:45 : DEBUG] - Lock option (updraft_lock_smush, wp_options) already existed in the database 
+[2024-12-03 13:30:45 : INFO] - Lock (updraft_lock_smush, wp_options) could not be acquired (it is locked) 
+[2024-12-03 13:30:45 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2024-12-03 13:30:45 : INFO] - Cleaning up tasks of type (smush). A total of 3 tasks will be deleted. 
+[2024-12-03 13:30:55 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:30:55 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/banner-image.png.The file was compressed from 1.01 MB to 495.83 KB, saving 52.06 percent, using WP-Optimize 
+[2024-12-03 13:30:55 : INFO] - Completed processing task with ID : 8, and type 'smush' 
+[2024-12-03 13:30:55 : INFO] - Processing task with ID : 9, and type 'smush' 
+[2024-12-03 13:30:55 : INFO] - Re_Smush_It_Task - Attachment ID : 8992, Started on : December 03, 2024 01:28:46 
+[2024-12-03 13:30:55 : INFO] - File: left-image.png, Compression quality: 92 
+[2024-12-03 13:30:57 : INFO] - Backing up the original image - 2024/12/left-image-updraft-pre-smush-original.png 
+[2024-12-03 13:31:01 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:31:01 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:31:01 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/left-image.png.The file was compressed from 662.43 KB to 284.04 KB, saving 57.12 percent, using WP-Optimize 
+[2024-12-03 13:31:01 : INFO] - Completed processing task with ID : 9, and type 'smush' 
+[2024-12-03 13:31:01 : INFO] - Processing task with ID : 10, and type 'smush' 
+[2024-12-03 13:31:01 : INFO] - Re_Smush_It_Task - Attachment ID : 8993, Started on : December 03, 2024 01:28:46 
+[2024-12-03 13:31:01 : INFO] - File: lower-section-image.png, Compression quality: 92 
+[2024-12-03 13:31:03 : INFO] - Backing up the original image - 2024/12/lower-section-image-updraft-pre-smush-original.png 
+[2024-12-03 13:31:08 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:31:08 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/lower-section-image.png.The file was compressed from 235.16 KB to 106.33 KB, saving 54.78 percent, using WP-Optimize 
+[2024-12-03 13:31:08 : INFO] - Completed processing task with ID : 10, and type 'smush' 
+[2024-12-03 13:31:08 : INFO] - Processing task with ID : 11, and type 'smush' 
+[2024-12-03 13:31:08 : INFO] - Re_Smush_It_Task - Attachment ID : 9027, Started on : December 03, 2024 01:28:46 
+[2024-12-03 13:31:08 : INFO] - File: image-3.png, Compression quality: 92 
+[2024-12-03 13:31:10 : INFO] - Backing up the original image - 2024/12/image-3-updraft-pre-smush-original.png 
+[2024-12-03 13:31:16 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:31:22 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:31:22 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/image-3.png.The file was compressed from 89.32 KB to 27.20 KB, saving 69.55 percent, using WP-Optimize 
+[2024-12-03 13:31:22 : INFO] - Completed processing task with ID : 11, and type 'smush' 
+[2024-12-03 13:31:22 : INFO] - Processing task with ID : 12, and type 'smush' 
+[2024-12-03 13:31:22 : INFO] - Re_Smush_It_Task - Attachment ID : 9044, Started on : December 03, 2024 01:28:46 
+[2024-12-03 13:31:22 : INFO] - File: DSC_9125-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:31:24 : INFO] - Backing up the original image - 2024/12/DSC_9125-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:31:28 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:31:28 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9125-scaled.jpg.The file was compressed from 262.35 KB to 244.72 KB, saving 6.72 percent, using WP-Optimize 
+[2024-12-03 13:31:28 : INFO] - Completed processing task with ID : 12, and type 'smush' 
+[2024-12-03 13:31:28 : INFO] - Processing task with ID : 13, and type 'smush' 
+[2024-12-03 13:31:28 : INFO] - Re_Smush_It_Task - Attachment ID : 9045, Started on : December 03, 2024 01:28:46 
+[2024-12-03 13:31:28 : INFO] - File: DSC_9126-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:31:30 : INFO] - Backing up the original image - 2024/12/DSC_9126-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:31:31 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:31:34 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:31:34 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9126-scaled.jpg.The file was compressed from 274.49 KB to 257.13 KB, saving 6.33 percent, using WP-Optimize 
+[2024-12-03 13:31:34 : INFO] - Completed processing task with ID : 13, and type 'smush' 
+[2024-12-03 13:31:34 : INFO] - Processing task with ID : 14, and type 'smush' 
+[2024-12-03 13:31:34 : INFO] - Re_Smush_It_Task - Attachment ID : 9057, Started on : December 03, 2024 01:28:46 
+[2024-12-03 13:31:34 : INFO] - File: DSC_9082-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:31:36 : INFO] - Backing up the original image - 2024/12/DSC_9082-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:31:40 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:31:40 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9082-scaled.jpg.The file was compressed from 223.39 KB to 192.06 KB, saving 14.02 percent, using WP-Optimize 
+[2024-12-03 13:31:40 : INFO] - Completed processing task with ID : 14, and type 'smush' 
+[2024-12-03 13:31:40 : INFO] - Processing task with ID : 15, and type 'smush' 
+[2024-12-03 13:31:40 : INFO] - Re_Smush_It_Task - Attachment ID : 9058, Started on : December 03, 2024 01:28:46 
+[2024-12-03 13:31:40 : INFO] - File: DSC_9086-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:31:42 : INFO] - Backing up the original image - 2024/12/DSC_9086-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:31:45 : INFO] - A total of 59 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:31:45 : DEBUG] - Lock option (updraft_lock_smush, wp_options) already existed in the database 
+[2024-12-03 13:31:45 : INFO] - Lock (updraft_lock_smush, wp_options) could not be acquired (it is locked) 
+[2024-12-03 13:31:45 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2024-12-03 13:31:45 : INFO] - Cleaning up tasks of type (smush). A total of 7 tasks will be deleted. 
+[2024-12-03 13:31:46 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:31:46 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9086-scaled.jpg.The file was compressed from 279.60 KB to 252.07 KB, saving 9.85 percent, using WP-Optimize 
+[2024-12-03 13:31:46 : INFO] - Completed processing task with ID : 15, and type 'smush' 
+[2024-12-03 13:31:46 : INFO] - Processing task with ID : 16, and type 'smush' 
+[2024-12-03 13:31:46 : INFO] - Re_Smush_It_Task - Attachment ID : 9059, Started on : December 03, 2024 01:28:47 
+[2024-12-03 13:31:46 : INFO] - File: DSC_9088-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:31:48 : INFO] - Backing up the original image - 2024/12/DSC_9088-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:31:52 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:31:52 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9088-scaled.jpg.The file was compressed from 230.37 KB to 198.09 KB, saving 14.01 percent, using WP-Optimize 
+[2024-12-03 13:31:52 : INFO] - Completed processing task with ID : 16, and type 'smush' 
+[2024-12-03 13:31:52 : INFO] - Processing task with ID : 17, and type 'smush' 
+[2024-12-03 13:31:52 : INFO] - Re_Smush_It_Task - Attachment ID : 9060, Started on : December 03, 2024 01:28:47 
+[2024-12-03 13:31:52 : INFO] - File: DSC_9058-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:31:54 : INFO] - Backing up the original image - 2024/12/DSC_9058-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:31:59 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:31:59 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9058-scaled.jpg.The file was compressed from 333.46 KB to 300.11 KB, saving 10 percent, using WP-Optimize 
+[2024-12-03 13:31:59 : INFO] - Completed processing task with ID : 17, and type 'smush' 
+[2024-12-03 13:31:59 : INFO] - Processing task with ID : 18, and type 'smush' 
+[2024-12-03 13:31:59 : INFO] - Re_Smush_It_Task - Attachment ID : 9061, Started on : December 03, 2024 01:28:47 
+[2024-12-03 13:31:59 : INFO] - File: DSC_9059-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:32:01 : INFO] - Backing up the original image - 2024/12/DSC_9059-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:32:01 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:32:05 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:32:05 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9059-scaled.jpg.The file was compressed from 285.23 KB to 256.34 KB, saving 10.13 percent, using WP-Optimize 
+[2024-12-03 13:32:05 : INFO] - Completed processing task with ID : 18, and type 'smush' 
+[2024-12-03 13:32:05 : INFO] - Processing task with ID : 19, and type 'smush' 
+[2024-12-03 13:32:05 : INFO] - Re_Smush_It_Task - Attachment ID : 9065, Started on : December 03, 2024 01:28:47 
+[2024-12-03 13:32:05 : INFO] - File: DSC_9061-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:32:07 : INFO] - Backing up the original image - 2024/12/DSC_9061-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:32:11 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:32:11 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9061-scaled.jpg.The file was compressed from 220.57 KB to 205.01 KB, saving 7.05 percent, using WP-Optimize 
+[2024-12-03 13:32:11 : INFO] - Completed processing task with ID : 19, and type 'smush' 
+[2024-12-03 13:32:11 : INFO] - Processing task with ID : 20, and type 'smush' 
+[2024-12-03 13:32:11 : INFO] - Re_Smush_It_Task - Attachment ID : 9066, Started on : December 03, 2024 01:28:47 
+[2024-12-03 13:32:11 : INFO] - File: DSC_9062-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:32:13 : INFO] - Backing up the original image - 2024/12/DSC_9062-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:32:16 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:32:17 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:32:17 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9062-scaled.jpg.The file was compressed from 214.90 KB to 199.05 KB, saving 7.38 percent, using WP-Optimize 
+[2024-12-03 13:32:17 : INFO] - Completed processing task with ID : 20, and type 'smush' 
+[2024-12-03 13:32:17 : INFO] - Processing task with ID : 21, and type 'smush' 
+[2024-12-03 13:32:17 : INFO] - Re_Smush_It_Task - Attachment ID : 9067, Started on : December 03, 2024 01:28:47 
+[2024-12-03 13:32:17 : INFO] - File: DSC_9063-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:32:19 : INFO] - Backing up the original image - 2024/12/DSC_9063-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:32:20 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:32:20 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9063-scaled.jpg.The file was compressed from 195.72 KB to 177.24 KB, saving 9.44 percent, using WP-Optimize 
+[2024-12-03 13:32:20 : INFO] - Completed processing task with ID : 21, and type 'smush' 
+[2024-12-03 13:32:20 : INFO] - Processing task with ID : 22, and type 'smush' 
+[2024-12-03 13:32:20 : INFO] - Re_Smush_It_Task - Attachment ID : 9069, Started on : December 03, 2024 01:28:47 
+[2024-12-03 13:32:20 : INFO] - File: DSC_9072-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:32:22 : INFO] - Backing up the original image - 2024/12/DSC_9072-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:32:26 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:32:26 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9072-scaled.jpg.The file was compressed from 272.97 KB to 260.14 KB, saving 4.7 percent, using WP-Optimize 
+[2024-12-03 13:32:26 : INFO] - Completed processing task with ID : 22, and type 'smush' 
+[2024-12-03 13:32:26 : INFO] - Processing task with ID : 23, and type 'smush' 
+[2024-12-03 13:32:26 : INFO] - Re_Smush_It_Task - Attachment ID : 9070, Started on : December 03, 2024 01:28:47 
+[2024-12-03 13:32:26 : INFO] - File: DSC_9075-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:32:28 : INFO] - Backing up the original image - 2024/12/DSC_9075-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:32:31 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:32:33 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:32:33 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9075-scaled.jpg.The file was compressed from 283.86 KB to 264.99 KB, saving 6.65 percent, using WP-Optimize 
+[2024-12-03 13:32:33 : INFO] - Completed processing task with ID : 23, and type 'smush' 
+[2024-12-03 13:32:33 : INFO] - Processing task with ID : 24, and type 'smush' 
+[2024-12-03 13:32:33 : INFO] - Re_Smush_It_Task - Attachment ID : 9072, Started on : December 03, 2024 01:28:47 
+[2024-12-03 13:32:33 : INFO] - File: DSC_9078-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:32:35 : INFO] - Backing up the original image - 2024/12/DSC_9078-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:32:39 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:32:39 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9078-scaled.jpg.The file was compressed from 340.45 KB to 327.89 KB, saving 3.69 percent, using WP-Optimize 
+[2024-12-03 13:32:39 : INFO] - Completed processing task with ID : 24, and type 'smush' 
+[2024-12-03 13:32:39 : INFO] - Processing task with ID : 25, and type 'smush' 
+[2024-12-03 13:32:39 : INFO] - Re_Smush_It_Task - Attachment ID : 9073, Started on : December 03, 2024 01:28:47 
+[2024-12-03 13:32:39 : INFO] - File: DSC_9079-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:32:41 : INFO] - Backing up the original image - 2024/12/DSC_9079-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:32:43 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:32:43 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9079-scaled.jpg.The file was compressed from 281.95 KB to 263.86 KB, saving 6.41 percent, using WP-Optimize 
+[2024-12-03 13:32:43 : INFO] - Completed processing task with ID : 25, and type 'smush' 
+[2024-12-03 13:32:43 : INFO] - Processing task with ID : 26, and type 'smush' 
+[2024-12-03 13:32:43 : INFO] - Re_Smush_It_Task - Attachment ID : 9075, Started on : December 03, 2024 01:28:47 
+[2024-12-03 13:32:43 : INFO] - File: DSC_9095-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:32:45 : INFO] - Backing up the original image - 2024/12/DSC_9095-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:32:47 : INFO] - A total of 48 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:32:47 : DEBUG] - Lock option (updraft_lock_smush, wp_options) already existed in the database 
+[2024-12-03 13:32:47 : INFO] - Lock (updraft_lock_smush, wp_options) could not be acquired (it is locked) 
+[2024-12-03 13:32:47 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2024-12-03 13:32:47 : INFO] - Cleaning up tasks of type (smush). A total of 11 tasks will be deleted. 
+[2024-12-03 13:32:49 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:32:49 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9095-scaled.jpg.The file was compressed from 322.21 KB to 305.82 KB, saving 5.09 percent, using WP-Optimize 
+[2024-12-03 13:32:49 : INFO] - Completed processing task with ID : 26, and type 'smush' 
+[2024-12-03 13:32:49 : INFO] - Processing task with ID : 27, and type 'smush' 
+[2024-12-03 13:32:49 : INFO] - Re_Smush_It_Task - Attachment ID : 9076, Started on : December 03, 2024 01:28:47 
+[2024-12-03 13:32:49 : INFO] - File: DSC_9096-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:32:50 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:32:51 : INFO] - Backing up the original image - 2024/12/DSC_9096-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:32:52 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:32:52 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9096-scaled.jpg.The file was compressed from 245.54 KB to 226.92 KB, saving 7.58 percent, using WP-Optimize 
+[2024-12-03 13:32:52 : INFO] - Completed processing task with ID : 27, and type 'smush' 
+[2024-12-03 13:32:52 : INFO] - Processing task with ID : 28, and type 'smush' 
+[2024-12-03 13:32:52 : INFO] - Re_Smush_It_Task - Attachment ID : 9078, Started on : December 03, 2024 01:28:47 
+[2024-12-03 13:32:52 : INFO] - File: DSC_9098-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:32:54 : INFO] - Backing up the original image - 2024/12/DSC_9098-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:32:59 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:32:59 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9098-scaled.jpg.The file was compressed from 345.68 KB to 316.08 KB, saving 8.56 percent, using WP-Optimize 
+[2024-12-03 13:32:59 : INFO] - Completed processing task with ID : 28, and type 'smush' 
+[2024-12-03 13:32:59 : INFO] - Processing task with ID : 29, and type 'smush' 
+[2024-12-03 13:32:59 : INFO] - Re_Smush_It_Task - Attachment ID : 9079, Started on : December 03, 2024 01:28:47 
+[2024-12-03 13:32:59 : INFO] - File: DSC_9099-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:33:01 : INFO] - Backing up the original image - 2024/12/DSC_9099-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:33:02 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:33:02 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9099-scaled.jpg.The file was compressed from 279.86 KB to 252.79 KB, saving 9.67 percent, using WP-Optimize 
+[2024-12-03 13:33:02 : INFO] - Completed processing task with ID : 29, and type 'smush' 
+[2024-12-03 13:33:02 : INFO] - Processing task with ID : 30, and type 'smush' 
+[2024-12-03 13:33:02 : INFO] - Re_Smush_It_Task - Attachment ID : 9080, Started on : December 03, 2024 01:28:48 
+[2024-12-03 13:33:02 : INFO] - File: lower-section-image-1.png, Compression quality: 92 
+[2024-12-03 13:33:04 : INFO] - Backing up the original image - 2024/12/lower-section-image-1-updraft-pre-smush-original.png 
+[2024-12-03 13:33:10 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:33:10 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/lower-section-image-1.png.The file was compressed from 235.16 KB to 106.33 KB, saving 54.78 percent, using WP-Optimize 
+[2024-12-03 13:33:10 : INFO] - Completed processing task with ID : 30, and type 'smush' 
+[2024-12-03 13:33:10 : INFO] - Processing task with ID : 31, and type 'smush' 
+[2024-12-03 13:33:10 : INFO] - Re_Smush_It_Task - Attachment ID : 9091, Started on : December 03, 2024 01:28:48 
+[2024-12-03 13:33:10 : INFO] - File: Layer-54.png, Compression quality: 92 
+[2024-12-03 13:33:12 : INFO] - Backing up the original image - 2024/12/Layer-54-updraft-pre-smush-original.png 
+[2024-12-03 13:33:25 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:33:27 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:33:27 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/Layer-54.png.The file was compressed from 1.03 MB to 343.04 KB, saving 67.34 percent, using WP-Optimize 
+[2024-12-03 13:33:27 : INFO] - Completed processing task with ID : 31, and type 'smush' 
+[2024-12-03 13:33:27 : INFO] - Processing task with ID : 32, and type 'smush' 
+[2024-12-03 13:33:27 : INFO] - Re_Smush_It_Task - Attachment ID : 9092, Started on : December 03, 2024 01:28:48 
+[2024-12-03 13:33:27 : INFO] - File: Layer-40.png, Compression quality: 92 
+[2024-12-03 13:33:31 : INFO] - Backing up the original image - 2024/12/Layer-40-updraft-pre-smush-original.png 
+[2024-12-03 13:33:39 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:33:45 : INFO] - A total of 42 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:33:45 : DEBUG] - Lock option (updraft_lock_smush, wp_options) already existed in the database 
+[2024-12-03 13:33:45 : INFO] - Lock (updraft_lock_smush, wp_options) could not be acquired (it is locked) 
+[2024-12-03 13:33:45 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2024-12-03 13:33:45 : INFO] - Cleaning up tasks of type (smush). A total of 6 tasks will be deleted. 
+[2024-12-03 13:33:46 : INFO] - A total of 73 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:33:46 : DEBUG] - Lock option (updraft_lock_smush, wp_options) already existed in the database 
+[2024-12-03 13:33:46 : INFO] - Lock (updraft_lock_smush, wp_options) could not be acquired (it is locked) 
+[2024-12-03 13:33:46 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2024-12-03 13:34:01 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:34:15 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:34:31 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:34:45 : INFO] - A total of 73 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:34:45 : INFO] - Lock (updraft_lock_smush, wp_options) acquired 
+[2024-12-03 13:34:45 : INFO] - Processing task with ID : 32, and type 'smush' 
+[2024-12-03 13:34:45 : INFO] - Re_Smush_It_Task - Attachment ID : 9092, Started on : December 03, 2024 01:28:48 
+[2024-12-03 13:34:45 : INFO] - File: Layer-40.png, Compression quality: 92 
+[2024-12-03 13:34:47 : INFO] - Backing up the original image - 2024/12/Layer-40-updraft-pre-smush-original.png 
+[2024-12-03 13:35:00 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:35:12 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:35:12 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/Layer-40.png.The file was compressed from 795.10 KB to 795.04 KB, saving 0.01 percent, using WP-Optimize 
+[2024-12-03 13:35:12 : INFO] - Completed processing task with ID : 32, and type 'smush' 
+[2024-12-03 13:35:12 : INFO] - Processing task with ID : 33, and type 'smush' 
+[2024-12-03 13:35:12 : INFO] - Re_Smush_It_Task - Attachment ID : 9108, Started on : December 03, 2024 01:28:48 
+[2024-12-03 13:35:12 : INFO] - File: left-image-1.png, Compression quality: 92 
+[2024-12-03 13:35:14 : INFO] - Backing up the original image - 2024/12/left-image-1-updraft-pre-smush-original.png 
+[2024-12-03 13:35:21 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:35:29 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:35:29 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/left-image-1.png.The file was compressed from 662.43 KB to 284.04 KB, saving 57.12 percent, using WP-Optimize 
+[2024-12-03 13:35:29 : INFO] - Completed processing task with ID : 33, and type 'smush' 
+[2024-12-03 13:35:29 : INFO] - Processing task with ID : 34, and type 'smush' 
+[2024-12-03 13:35:29 : INFO] - Re_Smush_It_Task - Attachment ID : 9123, Started on : December 03, 2024 01:28:48 
+[2024-12-03 13:35:29 : INFO] - File: Layer-68.png, Compression quality: 92 
+[2024-12-03 13:35:31 : INFO] - Backing up the original image - 2024/12/Layer-68-updraft-pre-smush-original.png 
+[2024-12-03 13:35:31 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:35:35 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:35:35 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/Layer-68.png.The file was compressed from 338.75 KB to 122.08 KB, saving 63.96 percent, using WP-Optimize 
+[2024-12-03 13:35:35 : INFO] - Completed processing task with ID : 34, and type 'smush' 
+[2024-12-03 13:35:35 : INFO] - Processing task with ID : 35, and type 'smush' 
+[2024-12-03 13:35:35 : INFO] - Re_Smush_It_Task - Attachment ID : 9124, Started on : December 03, 2024 01:28:48 
+[2024-12-03 13:35:35 : INFO] - File: Layer-70.png, Compression quality: 92 
+[2024-12-03 13:35:37 : INFO] - Backing up the original image - 2024/12/Layer-70-updraft-pre-smush-original.png 
+[2024-12-03 13:35:41 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:35:41 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/Layer-70.png.The file was compressed from 244.32 KB to 111.60 KB, saving 54.32 percent, using WP-Optimize 
+[2024-12-03 13:35:41 : INFO] - Completed processing task with ID : 35, and type 'smush' 
+[2024-12-03 13:35:41 : INFO] - Processing task with ID : 36, and type 'smush' 
+[2024-12-03 13:35:41 : INFO] - Re_Smush_It_Task - Attachment ID : 9125, Started on : December 03, 2024 01:28:48 
+[2024-12-03 13:35:41 : INFO] - File: Layer-69.png, Compression quality: 92 
+[2024-12-03 13:35:43 : INFO] - Backing up the original image - 2024/12/Layer-69-updraft-pre-smush-original.png 
+[2024-12-03 13:35:45 : INFO] - A total of 69 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:35:45 : DEBUG] - Lock option (updraft_lock_smush, wp_options) already existed in the database 
+[2024-12-03 13:35:45 : INFO] - Lock (updraft_lock_smush, wp_options) could not be acquired (it is locked) 
+[2024-12-03 13:35:45 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2024-12-03 13:35:45 : INFO] - Cleaning up tasks of type (smush). A total of 4 tasks will be deleted. 
+[2024-12-03 13:35:48 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:35:48 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/Layer-69.png.The file was compressed from 314.00 KB to 111.00 KB, saving 64.65 percent, using WP-Optimize 
+[2024-12-03 13:35:48 : INFO] - Completed processing task with ID : 36, and type 'smush' 
+[2024-12-03 13:35:48 : INFO] - Processing task with ID : 37, and type 'smush' 
+[2024-12-03 13:35:48 : INFO] - Re_Smush_It_Task - Attachment ID : 9126, Started on : December 03, 2024 01:28:48 
+[2024-12-03 13:35:48 : INFO] - File: Layer-71.png, Compression quality: 92 
+[2024-12-03 13:35:49 : INFO] - Backing up the original image - 2024/12/Layer-71-updraft-pre-smush-original.png 
+[2024-12-03 13:35:54 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:35:54 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/Layer-71.png.The file was compressed from 267.20 KB to 125.68 KB, saving 52.96 percent, using WP-Optimize 
+[2024-12-03 13:35:54 : INFO] - Completed processing task with ID : 37, and type 'smush' 
+[2024-12-03 13:35:54 : INFO] - Processing task with ID : 38, and type 'smush' 
+[2024-12-03 13:35:54 : INFO] - Re_Smush_It_Task - Attachment ID : 9300, Started on : December 03, 2024 01:28:48 
+[2024-12-03 13:35:54 : INFO] - File: WhatsApp-Image-2024-11-08-at-3.01.36-PMHD-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:35:56 : INFO] - Backing up the original image - 2024/12/WhatsApp-Image-2024-11-08-at-3.01.36-PMHD-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:36:01 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:36:13 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:36:13 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/WhatsApp-Image-2024-11-08-at-3.01.36-PMHD-scaled.jpg.The file was compressed from 314.19 KB to 303.69 KB, saving 3.34 percent, using WP-Optimize 
+[2024-12-03 13:36:13 : INFO] - Completed processing task with ID : 38, and type 'smush' 
+[2024-12-03 13:36:13 : INFO] - Processing task with ID : 39, and type 'smush' 
+[2024-12-03 13:36:13 : INFO] - Re_Smush_It_Task - Attachment ID : 9376, Started on : December 03, 2024 01:28:48 
+[2024-12-03 13:36:13 : INFO] - File: DSC_9089-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:36:15 : INFO] - Backing up the original image - 2024/12/DSC_9089-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:36:17 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:36:20 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:36:20 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9089-scaled.jpg.The file was compressed from 387.06 KB to 318.81 KB, saving 17.63 percent, using WP-Optimize 
+[2024-12-03 13:36:20 : INFO] - Completed processing task with ID : 39, and type 'smush' 
+[2024-12-03 13:36:20 : INFO] - Processing task with ID : 40, and type 'smush' 
+[2024-12-03 13:36:20 : INFO] - Re_Smush_It_Task - Attachment ID : 9377, Started on : December 03, 2024 01:28:49 
+[2024-12-03 13:36:20 : INFO] - File: DSC_9091-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:36:22 : INFO] - Backing up the original image - 2024/12/DSC_9091-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:36:26 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:36:26 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9091-scaled.jpg.The file was compressed from 404.90 KB to 334.49 KB, saving 17.39 percent, using WP-Optimize 
+[2024-12-03 13:36:26 : INFO] - Completed processing task with ID : 40, and type 'smush' 
+[2024-12-03 13:36:26 : INFO] - Processing task with ID : 41, and type 'smush' 
+[2024-12-03 13:36:26 : INFO] - Re_Smush_It_Task - Attachment ID : 9378, Started on : December 03, 2024 01:28:49 
+[2024-12-03 13:36:26 : INFO] - File: DSC_9092-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:36:28 : INFO] - Backing up the original image - 2024/12/DSC_9092-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:36:30 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:36:30 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9092-scaled.jpg.The file was compressed from 342.79 KB to 290.41 KB, saving 15.28 percent, using WP-Optimize 
+[2024-12-03 13:36:30 : INFO] - Completed processing task with ID : 41, and type 'smush' 
+[2024-12-03 13:36:30 : INFO] - Processing task with ID : 42, and type 'smush' 
+[2024-12-03 13:36:30 : INFO] - Re_Smush_It_Task - Attachment ID : 9380, Started on : December 03, 2024 01:28:49 
+[2024-12-03 13:36:30 : INFO] - File: DSC_9127-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:36:31 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:36:31 : INFO] - Backing up the original image - 2024/12/DSC_9127-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:36:35 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:36:35 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9127-scaled.jpg.The file was compressed from 176.33 KB to 154.29 KB, saving 12.5 percent, using WP-Optimize 
+[2024-12-03 13:36:35 : INFO] - Completed processing task with ID : 42, and type 'smush' 
+[2024-12-03 13:36:35 : INFO] - Processing task with ID : 43, and type 'smush' 
+[2024-12-03 13:36:35 : INFO] - Re_Smush_It_Task - Attachment ID : 9381, Started on : December 03, 2024 01:28:49 
+[2024-12-03 13:36:35 : INFO] - File: DSC_9128-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:36:37 : INFO] - Backing up the original image - 2024/12/DSC_9128-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:36:41 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:36:41 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9128-scaled.jpg.The file was compressed from 199.91 KB to 177.77 KB, saving 11.07 percent, using WP-Optimize 
+[2024-12-03 13:36:41 : INFO] - Completed processing task with ID : 43, and type 'smush' 
+[2024-12-03 13:36:41 : INFO] - Processing task with ID : 44, and type 'smush' 
+[2024-12-03 13:36:41 : INFO] - Re_Smush_It_Task - Attachment ID : 9384, Started on : December 03, 2024 01:28:49 
+[2024-12-03 13:36:41 : INFO] - File: DSC_9145-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:36:43 : INFO] - Backing up the original image - 2024/12/DSC_9145-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:36:45 : INFO] - A total of 61 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:36:45 : DEBUG] - Lock option (updraft_lock_smush, wp_options) already existed in the database 
+[2024-12-03 13:36:45 : INFO] - Lock (updraft_lock_smush, wp_options) could not be acquired (it is locked) 
+[2024-12-03 13:36:45 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2024-12-03 13:36:45 : INFO] - Cleaning up tasks of type (smush). A total of 8 tasks will be deleted. 
+[2024-12-03 13:36:47 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:36:47 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9145-scaled.jpg.The file was compressed from 402.04 KB to 361.65 KB, saving 10.05 percent, using WP-Optimize 
+[2024-12-03 13:36:47 : INFO] - Completed processing task with ID : 44, and type 'smush' 
+[2024-12-03 13:36:47 : INFO] - Processing task with ID : 45, and type 'smush' 
+[2024-12-03 13:36:47 : INFO] - Re_Smush_It_Task - Attachment ID : 9385, Started on : December 03, 2024 01:28:49 
+[2024-12-03 13:36:47 : INFO] - File: DSC_9146-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:36:49 : INFO] - Backing up the original image - 2024/12/DSC_9146-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:36:54 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:36:54 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9146-scaled.jpg.The file was compressed from 349.53 KB to 313.58 KB, saving 10.29 percent, using WP-Optimize 
+[2024-12-03 13:36:54 : INFO] - Completed processing task with ID : 45, and type 'smush' 
+[2024-12-03 13:36:54 : INFO] - Processing task with ID : 46, and type 'smush' 
+[2024-12-03 13:36:54 : INFO] - Re_Smush_It_Task - Attachment ID : 9386, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:36:54 : INFO] - File: DSC_9147-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:36:56 : INFO] - Backing up the original image - 2024/12/DSC_9147-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:37:00 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:37:00 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9147-scaled.jpg.The file was compressed from 379.21 KB to 345.01 KB, saving 9.02 percent, using WP-Optimize 
+[2024-12-03 13:37:00 : INFO] - Completed processing task with ID : 46, and type 'smush' 
+[2024-12-03 13:37:00 : INFO] - Processing task with ID : 47, and type 'smush' 
+[2024-12-03 13:37:00 : INFO] - Re_Smush_It_Task - Attachment ID : 9388, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:37:00 : INFO] - File: DSC_9185-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:37:02 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:37:02 : INFO] - Backing up the original image - 2024/12/DSC_9185-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:37:06 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:37:06 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9185-scaled.jpg.The file was compressed from 326.23 KB to 307.83 KB, saving 5.64 percent, using WP-Optimize 
+[2024-12-03 13:37:06 : INFO] - Completed processing task with ID : 47, and type 'smush' 
+[2024-12-03 13:37:06 : INFO] - Processing task with ID : 48, and type 'smush' 
+[2024-12-03 13:37:06 : INFO] - Re_Smush_It_Task - Attachment ID : 9389, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:37:06 : INFO] - File: DSC_9186-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:37:08 : INFO] - Backing up the original image - 2024/12/DSC_9186-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:37:13 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:37:13 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9186-scaled.jpg.The file was compressed from 255.81 KB to 240.27 KB, saving 6.07 percent, using WP-Optimize 
+[2024-12-03 13:37:13 : INFO] - Completed processing task with ID : 48, and type 'smush' 
+[2024-12-03 13:37:13 : INFO] - Processing task with ID : 49, and type 'smush' 
+[2024-12-03 13:37:13 : INFO] - Re_Smush_It_Task - Attachment ID : 9390, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:37:13 : INFO] - File: DSC_9187-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:37:14 : INFO] - Backing up the original image - 2024/12/DSC_9187-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:37:16 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:37:18 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:37:18 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9187-scaled.jpg.The file was compressed from 192.47 KB to 173.28 KB, saving 9.97 percent, using WP-Optimize 
+[2024-12-03 13:37:18 : INFO] - Completed processing task with ID : 49, and type 'smush' 
+[2024-12-03 13:37:18 : INFO] - Processing task with ID : 50, and type 'smush' 
+[2024-12-03 13:37:18 : INFO] - Re_Smush_It_Task - Attachment ID : 9393, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:37:18 : INFO] - File: DSC_9142-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:37:20 : INFO] - Backing up the original image - 2024/12/DSC_9142-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:37:25 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:37:25 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9142-scaled.jpg.The file was compressed from 267.71 KB to 250.05 KB, saving 6.6 percent, using WP-Optimize 
+[2024-12-03 13:37:25 : INFO] - Completed processing task with ID : 50, and type 'smush' 
+[2024-12-03 13:37:25 : INFO] - Processing task with ID : 51, and type 'smush' 
+[2024-12-03 13:37:25 : INFO] - Re_Smush_It_Task - Attachment ID : 9394, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:37:25 : INFO] - File: DSC_9143-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:37:26 : INFO] - Backing up the original image - 2024/12/DSC_9143-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:37:28 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:37:28 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9143-scaled.jpg.The file was compressed from 257.32 KB to 239.56 KB, saving 6.91 percent, using WP-Optimize 
+[2024-12-03 13:37:28 : INFO] - Completed processing task with ID : 51, and type 'smush' 
+[2024-12-03 13:37:28 : INFO] - Processing task with ID : 52, and type 'smush' 
+[2024-12-03 13:37:28 : INFO] - Re_Smush_It_Task - Attachment ID : 9395, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:37:28 : INFO] - File: DSC_9144-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:37:30 : INFO] - Backing up the original image - 2024/12/DSC_9144-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:37:31 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:37:34 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:37:34 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9144-scaled.jpg.The file was compressed from 288.93 KB to 276.96 KB, saving 4.14 percent, using WP-Optimize 
+[2024-12-03 13:37:34 : INFO] - Completed processing task with ID : 52, and type 'smush' 
+[2024-12-03 13:37:34 : INFO] - Processing task with ID : 53, and type 'smush' 
+[2024-12-03 13:37:34 : INFO] - Re_Smush_It_Task - Attachment ID : 9398, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:37:34 : INFO] - File: DSC_9178-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:37:36 : INFO] - Backing up the original image - 2024/12/DSC_9178-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:37:40 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:37:40 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9178-scaled.jpg.The file was compressed from 225.34 KB to 193.51 KB, saving 14.12 percent, using WP-Optimize 
+[2024-12-03 13:37:40 : INFO] - Completed processing task with ID : 53, and type 'smush' 
+[2024-12-03 13:37:40 : INFO] - Processing task with ID : 54, and type 'smush' 
+[2024-12-03 13:37:40 : INFO] - Re_Smush_It_Task - Attachment ID : 9399, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:37:40 : INFO] - File: DSC_9179-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:37:42 : INFO] - Backing up the original image - 2024/12/DSC_9179-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:37:45 : INFO] - A total of 51 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:37:45 : DEBUG] - Lock option (updraft_lock_smush, wp_options) already existed in the database 
+[2024-12-03 13:37:45 : INFO] - Lock (updraft_lock_smush, wp_options) could not be acquired (it is locked) 
+[2024-12-03 13:37:45 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2024-12-03 13:37:45 : INFO] - Cleaning up tasks of type (smush). A total of 10 tasks will be deleted. 
+[2024-12-03 13:37:46 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:37:46 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9179-scaled.jpg.The file was compressed from 259.38 KB to 226.21 KB, saving 12.79 percent, using WP-Optimize 
+[2024-12-03 13:37:46 : INFO] - Completed processing task with ID : 54, and type 'smush' 
+[2024-12-03 13:37:46 : INFO] - Processing task with ID : 55, and type 'smush' 
+[2024-12-03 13:37:46 : INFO] - Re_Smush_It_Task - Attachment ID : 9400, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:37:46 : INFO] - File: DSC_9180-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:37:48 : INFO] - Backing up the original image - 2024/12/DSC_9180-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:37:52 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:37:52 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9180-scaled.jpg.The file was compressed from 222.77 KB to 188.11 KB, saving 15.56 percent, using WP-Optimize 
+[2024-12-03 13:37:52 : INFO] - Completed processing task with ID : 55, and type 'smush' 
+[2024-12-03 13:37:52 : INFO] - Processing task with ID : 56, and type 'smush' 
+[2024-12-03 13:37:52 : INFO] - Re_Smush_It_Task - Attachment ID : 9403, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:37:52 : INFO] - File: DSC_9149-Copy-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:37:54 : INFO] - Backing up the original image - 2024/12/DSC_9149-Copy-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:37:58 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:37:58 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9149-Copy-scaled.jpg.The file was compressed from 281.74 KB to 251.81 KB, saving 10.62 percent, using WP-Optimize 
+[2024-12-03 13:37:58 : INFO] - Completed processing task with ID : 56, and type 'smush' 
+[2024-12-03 13:37:58 : INFO] - Processing task with ID : 57, and type 'smush' 
+[2024-12-03 13:37:58 : INFO] - Re_Smush_It_Task - Attachment ID : 9405, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:37:58 : INFO] - File: DSC_9150-Copy.jpg, Compression quality: 92 
+[2024-12-03 13:38:01 : INFO] - Backing up the original image - 2024/12/DSC_9150-Copy-updraft-pre-smush-original.jpg 
+[2024-12-03 13:38:01 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:38:01 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9150-Copy.jpg.The file was compressed from 2.09 MB to 1,015.58 KB, saving 52.54 percent, using WP-Optimize 
+[2024-12-03 13:38:01 : INFO] - Completed processing task with ID : 57, and type 'smush' 
+[2024-12-03 13:38:01 : INFO] - Processing task with ID : 58, and type 'smush' 
+[2024-12-03 13:38:01 : INFO] - Re_Smush_It_Task - Attachment ID : 9406, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:38:01 : INFO] - File: DSC_9151-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:38:03 : INFO] - Backing up the original image - 2024/12/DSC_9151-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:38:06 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:38:06 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9151-scaled.jpg.The file was compressed from 239.42 KB to 212.25 KB, saving 11.34 percent, using WP-Optimize 
+[2024-12-03 13:38:06 : INFO] - Completed processing task with ID : 58, and type 'smush' 
+[2024-12-03 13:38:06 : INFO] - Processing task with ID : 59, and type 'smush' 
+[2024-12-03 13:38:06 : INFO] - Re_Smush_It_Task - Attachment ID : 9408, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:38:06 : INFO] - File: DSC_9164-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:38:08 : INFO] - Backing up the original image - 2024/12/DSC_9164-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:38:12 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:38:12 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9164-scaled.jpg.The file was compressed from 166.90 KB to 149.93 KB, saving 10.17 percent, using WP-Optimize 
+[2024-12-03 13:38:12 : INFO] - Completed processing task with ID : 59, and type 'smush' 
+[2024-12-03 13:38:12 : INFO] - Processing task with ID : 60, and type 'smush' 
+[2024-12-03 13:38:12 : INFO] - Re_Smush_It_Task - Attachment ID : 9409, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:38:12 : INFO] - File: DSC_9165-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:38:14 : INFO] - Backing up the original image - 2024/12/DSC_9165-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:38:18 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:38:18 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9165-scaled.jpg.The file was compressed from 155.70 KB to 135.08 KB, saving 13.25 percent, using WP-Optimize 
+[2024-12-03 13:38:18 : INFO] - Completed processing task with ID : 60, and type 'smush' 
+[2024-12-03 13:38:18 : INFO] - Processing task with ID : 61, and type 'smush' 
+[2024-12-03 13:38:18 : INFO] - Re_Smush_It_Task - Attachment ID : 9411, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:38:18 : INFO] - File: DSC_9158-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:38:20 : INFO] - Backing up the original image - 2024/12/DSC_9158-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:38:24 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:38:24 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9158-scaled.jpg.The file was compressed from 249.94 KB to 230.54 KB, saving 7.76 percent, using WP-Optimize 
+[2024-12-03 13:38:24 : INFO] - Completed processing task with ID : 61, and type 'smush' 
+[2024-12-03 13:38:24 : INFO] - Processing task with ID : 62, and type 'smush' 
+[2024-12-03 13:38:24 : INFO] - Re_Smush_It_Task - Attachment ID : 9412, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:38:24 : INFO] - File: DSC_9160-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:38:26 : INFO] - Backing up the original image - 2024/12/DSC_9160-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:38:26 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:38:30 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:38:30 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9160-scaled.jpg.The file was compressed from 152.19 KB to 130.46 KB, saving 14.28 percent, using WP-Optimize 
+[2024-12-03 13:38:30 : INFO] - Completed processing task with ID : 62, and type 'smush' 
+[2024-12-03 13:38:30 : INFO] - Processing task with ID : 63, and type 'smush' 
+[2024-12-03 13:38:30 : INFO] - Re_Smush_It_Task - Attachment ID : 9413, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:38:30 : INFO] - File: DSC_9162-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:38:31 : INFO] - Backing up the original image - 2024/12/DSC_9162-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:38:35 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:38:35 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9162-scaled.jpg.The file was compressed from 214.29 KB to 196.05 KB, saving 8.51 percent, using WP-Optimize 
+[2024-12-03 13:38:35 : INFO] - Completed processing task with ID : 63, and type 'smush' 
+[2024-12-03 13:38:35 : INFO] - Processing task with ID : 64, and type 'smush' 
+[2024-12-03 13:38:35 : INFO] - Re_Smush_It_Task - Attachment ID : 9415, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:38:35 : INFO] - File: DSC_9155-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:38:38 : INFO] - Backing up the original image - 2024/12/DSC_9155-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:38:42 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:38:42 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:38:42 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9155-scaled.jpg.The file was compressed from 213.63 KB to 194.03 KB, saving 9.17 percent, using WP-Optimize 
+[2024-12-03 13:38:42 : INFO] - Completed processing task with ID : 64, and type 'smush' 
+[2024-12-03 13:38:42 : INFO] - Processing task with ID : 65, and type 'smush' 
+[2024-12-03 13:38:42 : INFO] - Re_Smush_It_Task - Attachment ID : 9416, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:38:42 : INFO] - File: DSC_9156-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:38:44 : INFO] - Backing up the original image - 2024/12/DSC_9156-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:38:46 : INFO] - A total of 40 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:38:46 : DEBUG] - Lock option (updraft_lock_smush, wp_options) already existed in the database 
+[2024-12-03 13:38:46 : INFO] - Lock (updraft_lock_smush, wp_options) could not be acquired (it is locked) 
+[2024-12-03 13:38:46 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2024-12-03 13:38:46 : INFO] - Cleaning up tasks of type (smush). A total of 11 tasks will be deleted. 
+[2024-12-03 13:38:48 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:38:48 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9156-scaled.jpg.The file was compressed from 175.10 KB to 150.47 KB, saving 14.07 percent, using WP-Optimize 
+[2024-12-03 13:38:48 : INFO] - Completed processing task with ID : 65, and type 'smush' 
+[2024-12-03 13:38:48 : INFO] - Processing task with ID : 66, and type 'smush' 
+[2024-12-03 13:38:48 : INFO] - Re_Smush_It_Task - Attachment ID : 9417, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:38:48 : INFO] - File: DSC_9157-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:38:50 : INFO] - Backing up the original image - 2024/12/DSC_9157-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:38:52 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:38:52 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9157-scaled.jpg.The file was compressed from 161.43 KB to 142.94 KB, saving 11.45 percent, using WP-Optimize 
+[2024-12-03 13:38:52 : INFO] - Completed processing task with ID : 66, and type 'smush' 
+[2024-12-03 13:38:52 : INFO] - Processing task with ID : 67, and type 'smush' 
+[2024-12-03 13:38:52 : INFO] - Re_Smush_It_Task - Attachment ID : 9437, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:38:52 : INFO] - File: placeholder-2.png, Compression quality: 92 
+[2024-12-03 13:38:53 : INFO] - Backing up the original image - 2024/12/placeholder-2-updraft-pre-smush-original.png 
+[2024-12-03 13:39:00 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:39:00 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/placeholder-2.png.The file was compressed from 6.00 KB to 5.03 KB, saving 16.19 percent, using WP-Optimize 
+[2024-12-03 13:39:00 : INFO] - Completed processing task with ID : 67, and type 'smush' 
+[2024-12-03 13:39:00 : INFO] - Processing task with ID : 68, and type 'smush' 
+[2024-12-03 13:39:00 : INFO] - Re_Smush_It_Task - Attachment ID : 9438, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:39:00 : INFO] - File: testimonial-bg.jpg, Compression quality: 92 
+[2024-12-03 13:39:01 : INFO] - Backing up the original image - 2024/12/testimonial-bg-updraft-pre-smush-original.jpg 
+[2024-12-03 13:39:10 : INFO] - A total of 37 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:39:10 : DEBUG] - Lock option (updraft_lock_smush, wp_options) already existed in the database 
+[2024-12-03 13:39:10 : INFO] - Lock (updraft_lock_smush, wp_options) could not be acquired (it is locked) 
+[2024-12-03 13:39:10 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2024-12-03 13:39:10 : INFO] - Cleaning up tasks of type (smush). A total of 3 tasks will be deleted. 
+[2024-12-03 13:39:12 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:39:12 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/testimonial-bg.jpg.The file was compressed from 45.45 KB to 45.45 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:39:12 : INFO] - Completed processing task with ID : 68, and type 'smush' 
+[2024-12-03 13:39:12 : INFO] - Processing task with ID : 69, and type 'smush' 
+[2024-12-03 13:39:12 : INFO] - Re_Smush_It_Task - Attachment ID : 9439, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:39:12 : INFO] - File: client-logo-2.png, Compression quality: 92 
+[2024-12-03 13:39:13 : INFO] - Backing up the original image - 2024/12/client-logo-2-updraft-pre-smush-original.png 
+[2024-12-03 13:39:13 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:39:13 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/client-logo-2.png.The file was compressed from 899 bytes to 899 bytes, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:39:13 : INFO] - Completed processing task with ID : 69, and type 'smush' 
+[2024-12-03 13:39:13 : INFO] - Processing task with ID : 70, and type 'smush' 
+[2024-12-03 13:39:13 : INFO] - Re_Smush_It_Task - Attachment ID : 9440, Started on : December 03, 2024 01:28:50 
+[2024-12-03 13:39:13 : INFO] - File: client-logo-white.png, Compression quality: 92 
+[2024-12-03 13:39:14 : INFO] - Backing up the original image - 2024/12/client-logo-white-updraft-pre-smush-original.png 
+[2024-12-03 13:39:14 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:39:14 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/client-logo-white.png.The file was compressed from 939 bytes to 939 bytes, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:39:14 : INFO] - Completed processing task with ID : 70, and type 'smush' 
+[2024-12-03 13:39:14 : INFO] - Processing task with ID : 71, and type 'smush' 
+[2024-12-03 13:39:14 : INFO] - Re_Smush_It_Task - Attachment ID : 9444, Started on : December 03, 2024 01:28:51 
+[2024-12-03 13:39:14 : INFO] - File: placeholder-635.png, Compression quality: 92 
+[2024-12-03 13:39:15 : INFO] - Backing up the original image - 2024/12/placeholder-635-updraft-pre-smush-original.png 
+[2024-12-03 13:39:22 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:39:22 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/placeholder-635.png.The file was compressed from 6.00 KB to 5.03 KB, saving 16.19 percent, using WP-Optimize 
+[2024-12-03 13:39:22 : INFO] - Completed processing task with ID : 71, and type 'smush' 
+[2024-12-03 13:39:22 : INFO] - Processing task with ID : 72, and type 'smush' 
+[2024-12-03 13:39:22 : INFO] - Re_Smush_It_Task - Attachment ID : 9445, Started on : December 03, 2024 01:28:51 
+[2024-12-03 13:39:22 : INFO] - File: placeholder-636.png, Compression quality: 92 
+[2024-12-03 13:39:23 : INFO] - Backing up the original image - 2024/12/placeholder-636-updraft-pre-smush-original.png 
+[2024-12-03 13:39:30 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:39:30 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/placeholder-636.png.The file was compressed from 6.00 KB to 5.03 KB, saving 16.19 percent, using WP-Optimize 
+[2024-12-03 13:39:30 : INFO] - Completed processing task with ID : 72, and type 'smush' 
+[2024-12-03 13:39:30 : INFO] - Processing task with ID : 73, and type 'smush' 
+[2024-12-03 13:39:30 : INFO] - Re_Smush_It_Task - Attachment ID : 9446, Started on : December 03, 2024 01:28:51 
+[2024-12-03 13:39:30 : INFO] - File: Call_to_Actions1.jpg, Compression quality: 92 
+[2024-12-03 13:39:31 : INFO] - Backing up the original image - 2024/12/Call_to_Actions1-updraft-pre-smush-original.jpg 
+[2024-12-03 13:39:37 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:39:37 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/Call_to_Actions1.jpg.The file was compressed from 1.54 KB to 1.54 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:39:37 : INFO] - Completed processing task with ID : 73, and type 'smush' 
+[2024-12-03 13:39:37 : INFO] - Processing task with ID : 74, and type 'smush' 
+[2024-12-03 13:39:37 : INFO] - Re_Smush_It_Task - Attachment ID : 8523, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:39:37 : INFO] - File: BelloRosso-Brandmark.png, Compression quality: 92 
+[2024-12-03 13:39:38 : INFO] - Backing up the original image - 2024/11/BelloRosso-Brandmark-updraft-pre-smush-original.png 
+[2024-12-03 13:39:45 : INFO] - A total of 31 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:39:45 : DEBUG] - Lock option (updraft_lock_smush, wp_options) already existed in the database 
+[2024-12-03 13:39:45 : INFO] - Lock (updraft_lock_smush, wp_options) could not be acquired (it is locked) 
+[2024-12-03 13:39:45 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2024-12-03 13:39:45 : INFO] - Cleaning up tasks of type (smush). A total of 6 tasks will be deleted. 
+[2024-12-03 13:39:58 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:40:02 : INFO] - A total of 31 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:40:02 : INFO] - Lock (updraft_lock_smush, wp_options) acquired 
+[2024-12-03 13:40:05 : INFO] - Task with ID 74 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2024-12-03 13:40:05 : INFO] - Processing task with ID : 75, and type 'smush' 
+[2024-12-03 13:40:05 : INFO] - Re_Smush_It_Task - Attachment ID : 8525, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:40:05 : INFO] - File: cropped-BelloRosso-Brandmark.png, Compression quality: 92 
+[2024-12-03 13:40:05 : INFO] - Backing up the original image - 2024/11/cropped-BelloRosso-Brandmark-updraft-pre-smush-original.png 
+[2024-12-03 13:40:11 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:40:11 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/11/cropped-BelloRosso-Brandmark.png.The file was compressed from 7.05 KB to 7.05 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:40:11 : INFO] - Completed processing task with ID : 75, and type 'smush' 
+[2024-12-03 13:40:11 : INFO] - Processing task with ID : 76, and type 'smush' 
+[2024-12-03 13:40:11 : INFO] - Re_Smush_It_Task - Attachment ID : 8914, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:40:11 : INFO] - File: BelloRosso-Brandmark-with-Logotype-around-and-Tagline-Cursive.png, Compression quality: 92 
+[2024-12-03 13:40:12 : INFO] - Backing up the original image - 2024/11/BelloRosso-Brandmark-with-Logotype-around-and-Tagline-Cursive-updraft-pre-smush-original.png 
+[2024-12-03 13:40:17 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:40:24 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:40:24 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/11/BelloRosso-Brandmark-with-Logotype-around-and-Tagline-Cursive.png.The file was compressed from 27.19 KB to 27.19 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:40:24 : INFO] - Completed processing task with ID : 76, and type 'smush' 
+[2024-12-03 13:40:24 : INFO] - Processing task with ID : 77, and type 'smush' 
+[2024-12-03 13:40:24 : INFO] - Re_Smush_It_Task - Attachment ID : 8915, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:40:24 : INFO] - File: cropped-BelloRosso-Brandmark-with-Logotype-around-and-Tagline-Cursive.png, Compression quality: 92 
+[2024-12-03 13:40:25 : INFO] - Backing up the original image - 2024/11/cropped-BelloRosso-Brandmark-with-Logotype-around-and-Tagline-Cursive-updraft-pre-smush-original.png 
+[2024-12-03 13:40:32 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:40:37 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:40:37 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/11/cropped-BelloRosso-Brandmark-with-Logotype-around-and-Tagline-Cursive.png.The file was compressed from 27.17 KB to 27.17 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:40:37 : INFO] - Completed processing task with ID : 77, and type 'smush' 
+[2024-12-03 13:40:37 : INFO] - Processing task with ID : 78, and type 'smush' 
+[2024-12-03 13:40:37 : INFO] - Re_Smush_It_Task - Attachment ID : 8917, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:40:37 : INFO] - File: Banner-2.jpg, Compression quality: 92 
+[2024-12-03 13:40:39 : INFO] - Backing up the original image - 2024/11/Banner-2-updraft-pre-smush-original.jpg 
+[2024-12-03 13:40:47 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:40:54 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:40:54 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/11/Banner-2.jpg.The file was compressed from 207.22 KB to 206.98 KB, saving 0.12 percent, using WP-Optimize 
+[2024-12-03 13:40:54 : INFO] - Completed processing task with ID : 78, and type 'smush' 
+[2024-12-03 13:40:54 : INFO] - Processing task with ID : 79, and type 'smush' 
+[2024-12-03 13:40:54 : INFO] - Re_Smush_It_Task - Attachment ID : 8922, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:40:54 : INFO] - File: Banner-3-2.jpg, Compression quality: 92 
+[2024-12-03 13:40:55 : INFO] - Backing up the original image - 2024/11/Banner-3-2-updraft-pre-smush-original.jpg 
+[2024-12-03 13:41:01 : INFO] - A total of 26 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:41:01 : DEBUG] - Lock option (updraft_lock_smush, wp_options) already existed in the database 
+[2024-12-03 13:41:01 : INFO] - Lock (updraft_lock_smush, wp_options) could not be acquired (it is locked) 
+[2024-12-03 13:41:01 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2024-12-03 13:41:01 : INFO] - Cleaning up tasks of type (smush). A total of 4 tasks will be deleted. 
+[2024-12-03 13:41:11 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:41:11 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/11/Banner-3-2.jpg.The file was compressed from 183.79 KB to 183.58 KB, saving 0.11 percent, using WP-Optimize 
+[2024-12-03 13:41:11 : INFO] - Completed processing task with ID : 79, and type 'smush' 
+[2024-12-03 13:41:11 : INFO] - Processing task with ID : 80, and type 'smush' 
+[2024-12-03 13:41:11 : INFO] - Re_Smush_It_Task - Attachment ID : 8923, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:41:11 : INFO] - File: Banner-1.jpg, Compression quality: 92 
+[2024-12-03 13:41:13 : INFO] - Backing up the original image - 2024/11/Banner-1-updraft-pre-smush-original.jpg 
+[2024-12-03 13:41:17 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:41:28 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:41:28 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/11/Banner-1.jpg.The file was compressed from 272.05 KB to 270.91 KB, saving 0.42 percent, using WP-Optimize 
+[2024-12-03 13:41:28 : INFO] - Completed processing task with ID : 80, and type 'smush' 
+[2024-12-03 13:41:28 : INFO] - Processing task with ID : 81, and type 'smush' 
+[2024-12-03 13:41:28 : INFO] - Re_Smush_It_Task - Attachment ID : 8990, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:41:28 : INFO] - File: banner-image.png, Compression quality: 92 
+[2024-12-03 13:41:30 : INFO] - Backing up the original image - 2024/12/banner-image-updraft-pre-smush-original.png 
+[2024-12-03 13:41:32 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:41:46 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:41:50 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:41:50 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/banner-image.png.The file was compressed from 495.83 KB to 495.79 KB, saving 0.01 percent, using WP-Optimize 
+[2024-12-03 13:41:50 : INFO] - Completed processing task with ID : 81, and type 'smush' 
+[2024-12-03 13:41:50 : INFO] - Processing task with ID : 82, and type 'smush' 
+[2024-12-03 13:41:50 : INFO] - Re_Smush_It_Task - Attachment ID : 8992, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:41:50 : INFO] - File: left-image.png, Compression quality: 92 
+[2024-12-03 13:41:52 : INFO] - Backing up the original image - 2024/12/left-image-updraft-pre-smush-original.png 
+[2024-12-03 13:41:56 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:41:56 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/left-image.png.The file was compressed from 284.04 KB to 284.03 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:41:56 : INFO] - Completed processing task with ID : 82, and type 'smush' 
+[2024-12-03 13:41:56 : INFO] - Processing task with ID : 83, and type 'smush' 
+[2024-12-03 13:41:56 : INFO] - Re_Smush_It_Task - Attachment ID : 8993, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:41:56 : INFO] - File: lower-section-image.png, Compression quality: 92 
+[2024-12-03 13:41:57 : INFO] - Backing up the original image - 2024/12/lower-section-image-updraft-pre-smush-original.png 
+[2024-12-03 13:42:01 : INFO] - A total of 22 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:42:01 : DEBUG] - Lock option (updraft_lock_smush, wp_options) already existed in the database 
+[2024-12-03 13:42:01 : INFO] - Lock (updraft_lock_smush, wp_options) could not be acquired (it is locked) 
+[2024-12-03 13:42:01 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2024-12-03 13:42:01 : INFO] - Cleaning up tasks of type (smush). A total of 4 tasks will be deleted. 
+[2024-12-03 13:42:02 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:42:02 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/lower-section-image.png.The file was compressed from 106.33 KB to 106.29 KB, saving 0.04 percent, using WP-Optimize 
+[2024-12-03 13:42:02 : INFO] - Completed processing task with ID : 83, and type 'smush' 
+[2024-12-03 13:42:02 : INFO] - Processing task with ID : 84, and type 'smush' 
+[2024-12-03 13:42:02 : INFO] - Re_Smush_It_Task - Attachment ID : 9027, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:42:02 : INFO] - File: image-3.png, Compression quality: 92 
+[2024-12-03 13:42:03 : INFO] - Backing up the original image - 2024/12/image-3-updraft-pre-smush-original.png 
+[2024-12-03 13:42:16 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:42:16 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/image-3.png.The file was compressed from 27.20 KB to 27.20 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:42:16 : INFO] - Completed processing task with ID : 84, and type 'smush' 
+[2024-12-03 13:42:16 : INFO] - Processing task with ID : 85, and type 'smush' 
+[2024-12-03 13:42:16 : INFO] - Re_Smush_It_Task - Attachment ID : 9044, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:42:16 : INFO] - File: DSC_9125-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:42:16 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:42:18 : INFO] - Backing up the original image - 2024/12/DSC_9125-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:42:22 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:42:22 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9125-scaled.jpg.The file was compressed from 244.72 KB to 244.72 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:42:22 : INFO] - Completed processing task with ID : 85, and type 'smush' 
+[2024-12-03 13:42:22 : INFO] - Processing task with ID : 86, and type 'smush' 
+[2024-12-03 13:42:22 : INFO] - Re_Smush_It_Task - Attachment ID : 9045, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:42:22 : INFO] - File: DSC_9126-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:42:24 : INFO] - Backing up the original image - 2024/12/DSC_9126-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:42:28 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:42:28 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9126-scaled.jpg.The file was compressed from 257.13 KB to 257.13 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:42:28 : INFO] - Completed processing task with ID : 86, and type 'smush' 
+[2024-12-03 13:42:28 : INFO] - Processing task with ID : 87, and type 'smush' 
+[2024-12-03 13:42:28 : INFO] - Re_Smush_It_Task - Attachment ID : 9057, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:42:28 : INFO] - File: DSC_9082-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:42:30 : INFO] - Backing up the original image - 2024/12/DSC_9082-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:42:32 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:42:35 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:42:35 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9082-scaled.jpg.The file was compressed from 192.06 KB to 192.06 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:42:35 : INFO] - Completed processing task with ID : 87, and type 'smush' 
+[2024-12-03 13:42:35 : INFO] - Processing task with ID : 88, and type 'smush' 
+[2024-12-03 13:42:35 : INFO] - Re_Smush_It_Task - Attachment ID : 9058, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:42:35 : INFO] - File: DSC_9086-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:42:37 : INFO] - Backing up the original image - 2024/12/DSC_9086-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:42:41 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:42:41 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9086-scaled.jpg.The file was compressed from 252.07 KB to 252.07 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:42:41 : INFO] - Completed processing task with ID : 88, and type 'smush' 
+[2024-12-03 13:42:41 : INFO] - Processing task with ID : 89, and type 'smush' 
+[2024-12-03 13:42:41 : INFO] - Re_Smush_It_Task - Attachment ID : 9059, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:42:41 : INFO] - File: DSC_9088-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:42:43 : INFO] - Backing up the original image - 2024/12/DSC_9088-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:42:46 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:42:46 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9088-scaled.jpg.The file was compressed from 198.09 KB to 198.09 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:42:46 : INFO] - Completed processing task with ID : 89, and type 'smush' 
+[2024-12-03 13:42:46 : INFO] - Processing task with ID : 90, and type 'smush' 
+[2024-12-03 13:42:46 : INFO] - Re_Smush_It_Task - Attachment ID : 9060, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:42:46 : INFO] - File: DSC_9058-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:42:47 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:42:48 : INFO] - Backing up the original image - 2024/12/DSC_9058-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:42:52 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:42:52 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9058-scaled.jpg.The file was compressed from 300.11 KB to 300.11 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:42:53 : INFO] - Completed processing task with ID : 90, and type 'smush' 
+[2024-12-03 13:42:53 : INFO] - Processing task with ID : 91, and type 'smush' 
+[2024-12-03 13:42:53 : INFO] - Re_Smush_It_Task - Attachment ID : 9061, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:42:53 : INFO] - File: DSC_9059-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:42:55 : INFO] - Backing up the original image - 2024/12/DSC_9059-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:42:59 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:42:59 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9059-scaled.jpg.The file was compressed from 256.34 KB to 256.34 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:42:59 : INFO] - Completed processing task with ID : 91, and type 'smush' 
+[2024-12-03 13:42:59 : INFO] - Processing task with ID : 92, and type 'smush' 
+[2024-12-03 13:42:59 : INFO] - Re_Smush_It_Task - Attachment ID : 9065, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:42:59 : INFO] - File: DSC_9061-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:43:01 : INFO] - Backing up the original image - 2024/12/DSC_9061-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:43:02 : INFO] - A total of 13 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:43:02 : DEBUG] - Lock option (updraft_lock_smush, wp_options) already existed in the database 
+[2024-12-03 13:43:02 : INFO] - Lock (updraft_lock_smush, wp_options) could not be acquired (it is locked) 
+[2024-12-03 13:43:02 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2024-12-03 13:43:02 : INFO] - Cleaning up tasks of type (smush). A total of 9 tasks will be deleted. 
+[2024-12-03 13:43:06 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:43:06 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9061-scaled.jpg.The file was compressed from 205.01 KB to 205.01 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:43:06 : INFO] - Completed processing task with ID : 92, and type 'smush' 
+[2024-12-03 13:43:06 : INFO] - Processing task with ID : 93, and type 'smush' 
+[2024-12-03 13:43:06 : INFO] - Re_Smush_It_Task - Attachment ID : 9066, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:43:06 : INFO] - File: DSC_9062-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:43:07 : INFO] - Backing up the original image - 2024/12/DSC_9062-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:43:11 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:43:11 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9062-scaled.jpg.The file was compressed from 199.05 KB to 199.05 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:43:11 : INFO] - Completed processing task with ID : 93, and type 'smush' 
+[2024-12-03 13:43:11 : INFO] - Processing task with ID : 94, and type 'smush' 
+[2024-12-03 13:43:11 : INFO] - Re_Smush_It_Task - Attachment ID : 9067, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:43:11 : INFO] - File: DSC_9063-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:43:12 : INFO] - Backing up the original image - 2024/12/DSC_9063-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:43:14 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:43:14 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9063-scaled.jpg.The file was compressed from 177.24 KB to 177.24 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:43:14 : INFO] - Completed processing task with ID : 94, and type 'smush' 
+[2024-12-03 13:43:14 : INFO] - Processing task with ID : 95, and type 'smush' 
+[2024-12-03 13:43:14 : INFO] - Re_Smush_It_Task - Attachment ID : 9069, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:43:14 : INFO] - File: DSC_9072-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:43:16 : INFO] - Backing up the original image - 2024/12/DSC_9072-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:43:17 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:43:21 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:43:21 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9072-scaled.jpg.The file was compressed from 260.14 KB to 260.14 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:43:21 : INFO] - Completed processing task with ID : 95, and type 'smush' 
+[2024-12-03 13:43:21 : INFO] - Processing task with ID : 96, and type 'smush' 
+[2024-12-03 13:43:21 : INFO] - Re_Smush_It_Task - Attachment ID : 9070, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:43:21 : INFO] - File: DSC_9075-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:43:24 : INFO] - Backing up the original image - 2024/12/DSC_9075-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:43:28 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:43:29 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9075-scaled.jpg.The file was compressed from 264.99 KB to 264.99 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:43:29 : INFO] - Completed processing task with ID : 96, and type 'smush' 
+[2024-12-03 13:43:29 : INFO] - Processing task with ID : 97, and type 'smush' 
+[2024-12-03 13:43:29 : INFO] - Re_Smush_It_Task - Attachment ID : 9072, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:43:29 : INFO] - File: DSC_9078-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:43:31 : INFO] - Backing up the original image - 2024/12/DSC_9078-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:43:31 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:43:35 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:43:35 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9078-scaled.jpg.The file was compressed from 327.89 KB to 327.89 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:43:35 : INFO] - Completed processing task with ID : 97, and type 'smush' 
+[2024-12-03 13:43:35 : INFO] - Processing task with ID : 98, and type 'smush' 
+[2024-12-03 13:43:35 : INFO] - Re_Smush_It_Task - Attachment ID : 9073, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:43:35 : INFO] - File: DSC_9079-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:43:37 : INFO] - Backing up the original image - 2024/12/DSC_9079-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:43:38 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:43:38 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9079-scaled.jpg.The file was compressed from 263.86 KB to 263.86 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:43:38 : INFO] - Completed processing task with ID : 98, and type 'smush' 
+[2024-12-03 13:43:38 : INFO] - Processing task with ID : 99, and type 'smush' 
+[2024-12-03 13:43:38 : INFO] - Re_Smush_It_Task - Attachment ID : 9075, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:43:38 : INFO] - File: DSC_9095-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:43:40 : INFO] - Backing up the original image - 2024/12/DSC_9095-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:43:45 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:43:45 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9095-scaled.jpg.The file was compressed from 305.82 KB to 305.82 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:43:45 : INFO] - Completed processing task with ID : 99, and type 'smush' 
+[2024-12-03 13:43:45 : INFO] - Processing task with ID : 100, and type 'smush' 
+[2024-12-03 13:43:45 : INFO] - Re_Smush_It_Task - Attachment ID : 9076, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:43:45 : INFO] - File: DSC_9096-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:43:47 : INFO] - Backing up the original image - 2024/12/DSC_9096-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:43:47 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:43:48 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:43:48 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9096-scaled.jpg.The file was compressed from 226.92 KB to 226.92 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:43:48 : INFO] - Completed processing task with ID : 100, and type 'smush' 
+[2024-12-03 13:43:48 : INFO] - Processing task with ID : 101, and type 'smush' 
+[2024-12-03 13:43:48 : INFO] - Re_Smush_It_Task - Attachment ID : 9078, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:43:48 : INFO] - File: DSC_9098-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:43:50 : INFO] - Backing up the original image - 2024/12/DSC_9098-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:43:55 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:43:55 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9098-scaled.jpg.The file was compressed from 316.08 KB to 316.08 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:43:55 : INFO] - Completed processing task with ID : 101, and type 'smush' 
+[2024-12-03 13:43:55 : INFO] - Processing task with ID : 102, and type 'smush' 
+[2024-12-03 13:43:55 : INFO] - Re_Smush_It_Task - Attachment ID : 9079, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:43:55 : INFO] - File: DSC_9099-scaled.jpg, Compression quality: 92 
+[2024-12-03 13:43:57 : INFO] - Backing up the original image - 2024/12/DSC_9099-scaled-updraft-pre-smush-original.jpg 
+[2024-12-03 13:43:58 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:43:58 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/DSC_9099-scaled.jpg.The file was compressed from 252.79 KB to 252.79 KB, saving 0 percent, using WP-Optimize 
+[2024-12-03 13:43:58 : INFO] - Completed processing task with ID : 102, and type 'smush' 
+[2024-12-03 13:43:58 : INFO] - Processing task with ID : 103, and type 'smush' 
+[2024-12-03 13:43:58 : INFO] - Re_Smush_It_Task - Attachment ID : 9080, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:43:58 : INFO] - File: lower-section-image-1.png, Compression quality: 92 
+[2024-12-03 13:44:00 : INFO] - Backing up the original image - 2024/12/lower-section-image-1-updraft-pre-smush-original.png 
+[2024-12-03 13:44:04 : INFO] - A total of 2 tasks of type smush found and will be processed in this iteration 
+[2024-12-03 13:44:04 : DEBUG] - Lock option (updraft_lock_smush, wp_options) already existed in the database 
+[2024-12-03 13:44:04 : INFO] - Lock (updraft_lock_smush, wp_options) could not be acquired (it is locked) 
+[2024-12-03 13:44:04 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2024-12-03 13:44:04 : INFO] - Cleaning up tasks of type (smush). A total of 11 tasks will be deleted. 
+[2024-12-03 13:44:05 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:44:05 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/lower-section-image-1.png.The file was compressed from 106.33 KB to 106.29 KB, saving 0.04 percent, using WP-Optimize 
+[2024-12-03 13:44:05 : INFO] - Completed processing task with ID : 103, and type 'smush' 
+[2024-12-03 13:44:05 : INFO] - Processing task with ID : 104, and type 'smush' 
+[2024-12-03 13:44:06 : INFO] - Re_Smush_It_Task - Attachment ID : 9091, Started on : December 03, 2024 01:33:45 
+[2024-12-03 13:44:06 : INFO] - File: Layer-54.png, Compression quality: 92 
+[2024-12-03 13:44:08 : INFO] - Backing up the original image - 2024/12/Layer-54-updraft-pre-smush-original.png 
+[2024-12-03 13:44:16 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:44:21 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-12-03 13:44:21 : INFO] - Successfully optimized the image - /home/ta900cxb5tb8/bellorosso.com/wp-content/uploads/2024/12/Layer-54.png.The file was compressed from 343.04 KB to 342.97 KB, saving 0.02 percent, using WP-Optimize 
+[2024-12-03 13:44:21 : INFO] - Completed processing task with ID : 104, and type 'smush' 
+[2024-12-03 13:44:21 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2024-12-03 13:44:21 : INFO] - Successfully processed the queue (smush). 31 tasks were processed out of 31. 
+[2024-12-03 13:44:21 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2024-12-03 13:44:21 : INFO] - Cleaning up tasks of type (smush). A total of 2 tasks will be deleted. 
+[2024-12-03 13:44:34 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:44:47 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:48:05 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:48:10 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 13:48:13 : INFO] - Could not find file for image: ID=1588, file= 
+[2024-12-03 15:45:39 : INFO] - Pruning the smush log file 

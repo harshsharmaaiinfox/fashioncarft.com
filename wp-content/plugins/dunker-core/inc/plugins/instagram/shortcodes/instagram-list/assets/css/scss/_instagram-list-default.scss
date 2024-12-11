@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Instagram List shortcode styles
+   ========================================================================== */
+
+.qodef-instagram-list {
+
+    #sb_instagram {
+        padding: 0 !important;
+        overflow: hidden !important;
+
+        #sbi_images {
+
+            .sbi_item {
+
+                &.sbi_transition {
+
+                    html.elementor-html & {
+                        opacity: 1 !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .sbi_photo_wrap {
+
+        a {
+            background-image: none !important;
+            height: auto !important;
+            padding-bottom: 0 !important;
+
+            &:after {
+                color: white;
+                content: '\f16d';
+                font-family: 'Font Awesome 5 Brands';
+                font-size: 20px;
+                left: 50%;
+                opacity: 0;
+                position: absolute;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                transition: $opacity-transition;
+            }
+
+            &:hover {
+
+                &:after {
+                    opacity: 1;
+                }
+            }
+
+            img {
+                display: inline-block !important;
+            }
+        }
+    }
+
+    &.qodef-swiper-container {
+
+        #sb_instagram {
+
+            #sbi_images {
+
+                .sbi_item {
+                    margin: inherit !important;
+                }
+            }
+        }
+    }
+}
+
+/* ==========================================================================
+   Instagram List shortcode styles
+   ========================================================================== */

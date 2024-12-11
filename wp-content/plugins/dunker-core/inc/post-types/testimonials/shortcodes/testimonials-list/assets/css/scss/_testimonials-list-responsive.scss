@@ -1,0 +1,32 @@
+/* ==========================================================================
+   Testimonials list shortcode responsive styles
+   ========================================================================== */
+
+.qodef-testimonials-list {
+
+}
+
+.qodef-testimonials-list-slider-wrapper {
+	
+	@media screen and (min-width: 1920px) {
+		padding: 22px 19% 0 19%;
+	}
+
+	@include qodefScreenSize1024 {
+		padding: 38px 12% 0 12%;
+	}
+
+
+	@include qodefScreenSize680 {
+		padding: 22px 0 0 0;
+		background-image: none;
+
+		.swiper-button-prev {
+			display: none;
+		}
+
+		.swiper-button-next {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,62 @@
+.qodef-scrolling-images-showcase {
+	position: relative;
+
+	.qodef-scrolling-images-panel {
+		position: relative;
+		width: 100vw;
+		height: var(--qodef-panel-height, 100vh);
+	}
+
+	.scrolling-text {
+		position: fixed;
+		width: 100%;
+		top: 50vh;
+		transform: translateY(-50%);
+		font-family: 'Gochi Hand', sans-serif;
+		font-size: 17vw;
+		line-height: 1em;
+		font-weight: 400;
+		text-align: center;
+		letter-spacing: -0.05em;
+		color: $additional-background-color;
+		z-index: 5;
+		opacity: 0;
+		transition: opacity .6s ease-out;
+
+		@include qodefScreenSize768 {
+			font-size: 17vh;
+		}
+
+		&.qodef--appeared {
+			opacity: 1;
+		}
+	}
+
+	.scrolling-images-container {
+		position: absolute;
+		width: 100vw;
+		z-index: 7;
+		top: 0;
+
+		article {
+			position: absolute;
+			margin-right: -100vw;
+			width: 17vw;
+			opacity: 0;
+			transition: opacity .6s ease-out;
+
+			@include qodefScreenSize768 {
+				width: 17vh;
+			}
+
+			img {
+				outline: 1px solid $border-color;
+				transform: translateY(-40%);
+			}
+
+			&.qodef--appeared {
+				opacity: 1;
+			}
+		}
+	}
+}

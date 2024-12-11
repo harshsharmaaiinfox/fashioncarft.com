@@ -1,0 +1,14 @@
+.qodef-button {
+
+    &.qodef-layout--filled {
+    
+        &.qodef-html--link {
+            @include qodefButtonFilledColor();
+            min-width: 216px;
+    
+            &:hover {
+                @include qodefButtonFilledHoverColor();
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+/* ==========================================================================
+   Portfolio List shortcode variation styles
+   ========================================================================== */
+
+.qodef-portfolio-list {
+ 
+	&.qodef-item-layout--info-below {
+
+		.qodef-image-border-enabled {
+
+			.qodef-e-media {
+
+				.qodef-e-media-image {
+					border: solid 1px $border-color;
+				}
+			}
+		}
+	}
+}

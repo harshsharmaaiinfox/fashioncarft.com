@@ -1,0 +1,141 @@
+/* ==========================================================================
+   Product List Info on Image styles
+   ========================================================================== */
+
+.qodef-woo-product-list {
+	
+	&.qodef-item-layout--info-on-image {
+		--qode-pl-padding: 37px 35px 35px;
+
+		@include qodefScreenSize1024 {
+			--qode-pl-padding1024: 29px 35px 35px;
+		}
+
+		&, #qodef-woo-page & {
+
+			li,
+			.qodef-grid-item {
+				border: 0;
+
+				.qodef-e-inner {
+					padding: 0;
+				}
+
+				.qodef-e-media-inner {
+					opacity: 1;
+					background-color: transparent;
+					display: flex;
+					justify-content: space-between;
+					align-items: flex-start;
+					padding: var(--content-padding);
+					text-align: left;
+
+					.qodef-e-content {
+						margin: 0;
+					}
+
+					.qodef-e-text-wrapper {
+						display: flex;
+						flex-direction: column;
+						align-items: flex-start;
+						justify-content: space-between;
+					}
+
+					.qodef-e-top-holder {
+
+						.qodef-e-info {
+
+							a {
+								color: var(--qode-zambezi-color);
+							}
+						}
+					}
+					.qodef-e-bottom-holder {
+
+						.qodef-e-info {
+
+							a {
+								color: var(--qode-dim-gray-color);
+							}
+						}
+					}
+
+					.qodef-e-info {
+
+						a:hover {
+							color: var(--qode-main-color);
+						}
+					}
+
+					.qodef-woo-product-title {
+						color: var(--qode-main-color);
+						max-width: 500px;
+					}
+
+					.qodef-woo-product-title a:hover {
+						color: var(--qode-main-color);
+					}
+
+					> a {
+						@include qodefWooButtonsStyle($type: 'outline');
+						padding: 21px;
+						width: 216px;
+						max-width: 100%;
+					}
+				}
+
+				.qodef-e-media {
+					height: 100%;
+					width: 100%;
+				}
+
+				&.qodef-skin--light {
+
+					.qodef-e-media-inner {
+
+						.qodef-e-info {
+
+							a {
+								color: var(--qode-light-gray-color);
+
+								&:hover {
+									color: #fff;
+								}
+							}
+						}
+
+						.qodef-woo-product-title {
+							color: #fff;
+
+							a:hover {
+								color: #fff;
+							}
+						}
+
+						> a {
+							color: #fff;
+							border-color: #fff;
+
+							&:hover {
+								background-color: #fff;
+								color: #000;
+							}
+						}
+					}
+				}
+			}
+
+			.qodef-e-top-holder {
+				margin-bottom: 11px;
+			}
+
+			.qodef-e-bottom-holder {
+				margin-top: 6px;
+			}
+
+			.qodef-e-media-image {
+				opacity: 1 !important;
+			}
+		}
+	}
+}

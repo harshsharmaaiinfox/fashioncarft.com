@@ -1,0 +1,181 @@
+/* ==========================================================================
+   Top area style - begin
+   ========================================================================== */
+$left-right-spacing: 12px;
+
+#qodef-top-area {
+	position: relative;
+	z-index: 101; /* Header has Z-index 100, top header has greater value because of dropdown in header top (wpml) */
+	font-family: $text-font;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 15px;
+	background-color: #fff;
+
+	.qodef-widget-holder {
+		display: flex;
+		align-items: center;
+		height: 100%;
+
+		// IE11 issues with flexbox and search form item
+		&.qodef--left {
+			margin-right: auto;
+		}
+
+		&.qodef--center {
+			flex-grow: 1;
+			justify-content: center;
+		}
+
+		&.qodef--right {
+			margin-left: auto;
+		}
+
+		.widget {
+			margin: 0 $left-right-spacing;
+
+			&:first-child {
+				margin-left: 0;
+			}
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+
+	&.qodef-skin--light {
+		background: #000;
+		color: var(--qode-light-gray-color);
+
+		a {
+			color: var(--qode-light-gray-color);
+		}
+	}
+
+	.widget {
+		display: inline-block;
+		vertical-align: middle;
+		line-height: 1;
+
+		.textwidget > *,
+		.widget p {
+			margin: 0;
+		}
+	}
+
+	div[id^="monster-widget-placeholder"],
+	div[id^="woo-monster-widget-placeholder"] {
+		display: none;
+	}
+}
+
+#qodef-top-area-inner {
+	align-items: center;
+	display: flex;
+	height: 40px;
+	justify-content: space-between;
+	padding: $full-width-side-padding;
+	position: relative;
+	border-bottom: 0 solid transparent;
+
+	&.qodef-content-grid {
+		padding: 0 !important;
+	}
+
+	&.qodef-alignment--center {
+
+		.qodef-widget-holder {
+			margin: 0 auto;
+		}
+	}
+}
+
+#qodef-top-message-holder {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 34px;
+	text-align: center;
+	background: $additional-background-color;
+	transition: opacity 0.5s;
+	font-family: $text-font;
+	text-transform: uppercase;
+	font-size: 11px;
+	line-height: 34px;
+	font-weight: 400;
+	color: var(--qode-zambezi-color);
+	z-index: 111; // Higher than fullscreen menu
+
+	@include qodefScreenSize1024 {
+		display: none;
+	}
+
+	.qodef-top-message-inner {
+		height: 100%;
+
+		a {
+			color: var(--qode-zambezi-color);
+		}
+
+		.qodef-close-message {
+			display: inline-block;
+			position: absolute;
+			top: 11px;
+			right: 52px;
+			color: #000;
+			line-height: 1em;
+			cursor: pointer;
+
+			.qodef-svg--close {
+				display: block;
+
+				line {
+					stroke-dasharray: 16;
+					stroke-dashoffset: 32;
+					transition: stroke-dashoffset .6s $special-easing;
+
+					&:nth-of-type(2) {
+						transition-delay: .3s;
+					}
+				}
+			}
+
+			&:hover {
+
+				.qodef-svg--close {
+
+					line {
+						stroke-dashoffset: 0;
+					}
+				}
+			}
+		}
+	}
+
+	&.qodef-skin--light {
+		background: #000;
+		color: var(--qode-light-gray-color);
+
+		a {
+			color: var(--qode-light-gray-color);
+		}
+
+		.qodef-close-message {
+			color: #fff;
+		}
+	}
+
+	&.qodef-close-message {
+		opacity: 0;
+	}
+
+	@include qodefScreenSize680 {
+		display: none;
+	}
+}
+
+/* ==========================================================================
+   Top area style - end
+   ========================================================================== */

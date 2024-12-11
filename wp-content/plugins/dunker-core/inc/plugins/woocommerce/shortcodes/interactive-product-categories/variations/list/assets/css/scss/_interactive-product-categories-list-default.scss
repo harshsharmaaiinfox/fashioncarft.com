@@ -1,0 +1,145 @@
+/* ==========================================================================
+   Interactive Product Categories List styles
+   ========================================================================== */
+
+.qodef-interactive-product-categories {
+
+	&.qodef-layout--list {
+		position: relative;
+
+		.qodef-grid-item {
+			border-top: 1px solid $border-color;
+			position: initial;
+
+			.qodef-e-inner {
+				position: relative;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				min-height: 130px;
+
+				@include qodefScreenSize1024 {
+					flex-direction: column;
+					justify-content: center;
+					position: relative;
+				}
+			}
+
+			&:last-of-type {
+				border-bottom: 1px solid $border-color;
+			}
+		}
+
+		.qodef-e-title-wrapper {
+			display: inline-flex;
+			align-items: flex-start;
+			margin: 5px 0 0 36px;
+			flex-basis: 27.5%;
+			text-align: left;
+
+			@include qodefScreenSize1024 {
+				margin: 10px 0 0;
+			}
+
+			.qodef-e-title {
+				margin: 0;
+				position: relative;
+				z-index: 4;
+				display: inline-block;
+			}
+
+			.qodef-e-image {
+				position: absolute;
+				top: 50%;
+				right: 22%;
+				transform: translateY(-50%);
+				z-index: 3;
+				pointer-events: none;
+
+				img {
+					@include qodefSkewAppearHidden();
+				}
+
+				@include qodefScreenSize1024 {
+					display: none;
+				}
+			}
+		}
+
+		.qodef-e-brands {
+			@include qodefInfoStyle();
+			margin: 7px 0 0;
+			flex-basis: 72%;
+			z-index: 5;
+			opacity: 0;
+			transition: opacity $transition-timing;
+			text-align: center;
+
+			a {
+				color: var(--qode-zambezi-color);
+				display: inline-flex;
+				padding: 0 15px;
+
+				&:hover {
+					color: #000;
+				}
+			}
+
+			@include qodefScreenSize680 {
+				max-width: 80%;
+
+				a {
+					padding: 0 12px;
+				}
+			}
+		}
+
+		.qodef-e {
+
+			&:hover {
+
+				.qodef-e-image {
+
+					img {
+						@include qodefSkewAppear();
+					}
+				}
+
+				.qodef-e-title {
+					a {
+						color: $heading-color;
+					}
+				}
+
+				.qodef-e-brands {
+					opacity: 1
+				}
+			}
+		}
+
+		.qodef-e-button {
+			margin: 0 45px 0 0;
+			flex-shrink: 0;
+
+			@include qodefScreenSize1024 {
+				display: none;
+			}
+
+			.qodef-button {
+				width: 55px;
+				height: 55px;
+				border-radius: 50%;
+				background: transparent;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				transition: .5s $special-easing;
+
+				&:hover {
+					background: #000;
+					color: #fff;
+				}
+			}
+		}
+	}
+}

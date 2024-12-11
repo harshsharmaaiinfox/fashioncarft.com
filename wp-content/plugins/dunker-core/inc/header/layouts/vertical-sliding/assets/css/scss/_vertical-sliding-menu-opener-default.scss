@@ -1,0 +1,32 @@
+/* ==========================================================================
+   Vertical Sliding Menu Opener styles
+   ========================================================================== */
+
+.qodef-vertical-sliding-menu--opened {
+
+    #qodef-page-header .qodef-header-logo-link img {
+        
+        &.qodef--light {
+            opacity: 1;
+        }
+
+        &.qodef--main,
+        &.qodef--dark {
+            opacity: 0;
+        }
+    }
+}
+
+.qodef-header--vertical-sliding {
+
+    .qodef-opener-icon {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+        @media (min-width: 1025px)  {
+            padding: 40px 38px;
+        }
+    }
+}

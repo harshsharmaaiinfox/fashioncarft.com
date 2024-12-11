@@ -1,0 +1,301 @@
+/* ==========================================================================
+   WooCommerce Side Area Cart styles
+   ========================================================================== */
+
+$content-width: 433px;
+$content-padding: 92px 0 142px; // 142 is action button height + paddings
+$side-padding: 42px 40px;
+
+.widget_dunker_core_woo_side_area_cart {
+	position: relative;
+	display: flex;
+	align-items: center;
+	height: 100%;
+
+	.qodef-widget-side-area-cart-outer {
+		padding: 30px;
+
+		&.qodef-skin--light {
+			background: #000;
+
+			.qodef-m-opener {
+				color: #fff !important;
+			}
+		}
+	}
+
+	.qodef-widget-side-area-cart-inner {
+		display: flex;
+		height: 100%;
+		align-items: center;
+		justify-content: center;
+
+		a {
+			background: none !important; // Remove underline on hover
+		}
+
+		.qodef-m-inner {
+			@include qodefRelativeLayout();
+			height: 100%;
+		}
+
+		.qodef-m-opener {
+			position: relative;
+			display: flex;
+			align-items: center;
+			height: 100%;
+
+			.qodef-m-opener-count {
+				position: relative;
+				@include qodefHeadingStyle(h5, $with-color: false);
+				color: inherit;
+				padding-left: 10px;
+				padding-bottom: 4px;
+			}
+		}
+
+		.qodef-widget-side-area-cart-content {
+			position: fixed;
+			top: 0;
+			left: -$content-width;
+			height: 100vh;
+			width: $content-width;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			padding: $content-padding;
+			background-color: $background-color;
+			border-left: 1px solid $border-color;
+			overflow: hidden;
+			visibility: hidden;
+			z-index: 9999;
+			transition: $sliding-area-transition;
+
+			.admin-bar & {
+				top: 32px;
+				height: calc(100vh - 32px);
+			}
+
+			&:before {
+				content: '';
+				position: absolute;
+				display: block;
+				width: 100%;
+				height: 1px;
+				background-color: $border-color;
+				top: 92px;
+				left: 0;
+				z-index: 1;
+			}
+		}
+
+		.qodef-widget-side-area-cart-title {
+			position: absolute;
+			top: 36px;
+			left: 40px;
+			@include qodefHeadingStyle();
+			font-size: 22px;
+		}
+
+		.qodef-m-close {
+			position: absolute;
+			top: 40px;
+			right: 40px;
+			display: block;
+			font-size: 34px;
+			z-index: 1000;
+
+			.qodef-svg--close {
+				display: block;
+
+				line {
+					stroke-dasharray: 16;
+					stroke-dashoffset: 32;
+					transition: stroke-dashoffset .6s $special-easing;
+
+					&:nth-of-type(2) {
+						transition-delay: .3s;
+					}
+				}
+			}
+
+			&:hover {
+
+				.qodef-svg--close {
+
+					line {
+						stroke-dashoffset: 0;
+					}
+				}
+			}
+		}
+
+		.qodef-m-posts-not-found {
+			padding: 37px 40px;
+			margin-top: 0;
+			border-top: 1px solid $border-color;
+			@include qodefMenuTypographyStyle();
+		}
+
+		.qodef-woo-side-area-cart {
+			@include qodefRelativeLayout();
+			padding: $side-padding !important;
+			//border-top: 1px solid $border-color;
+			line-height: 14px;
+		}
+
+		.qodef-woo-side-area-cart-item {
+			position: relative;
+			display: flex;
+			align-items: center;
+			margin: 0 !important;
+			padding-top: 20px;
+			line-height: 12px !important;
+
+			&:first-child {
+				padding-top: 0;
+			}
+		}
+
+		.qodef-e-image {
+			flex-shrink: 0;
+			margin-right: 20px;
+
+			img {
+				width: 84px;
+				height: 84px;
+				object-fit: cover;
+				border: 1px solid $border-color;
+			}
+
+			a, img {
+				display: block;
+			}
+		}
+
+		.qodef-e-content {
+			width: 100%;
+			padding-right: 20px;
+			padding-top: 4px;
+		}
+
+		.qodef-e-title {
+			margin: 0;
+			@include qodefMenuTypographyStyle(900);
+			line-height: 16px;
+		}
+
+		.qodef-e-categories {
+			font-family: $text-font;
+			font-size: 14px;
+			text-transform: capitalize;
+			font-weight: 400;
+			color: var(--qode-dim-gray-color);
+			margin-top: 8px;
+		}
+
+		.qodef-e-price {
+			margin: 12px 0 0;
+			@include qodefMenuTypographyStyle(900);
+			line-height: 16px;
+		}
+
+		.remove {
+			position: absolute;
+			top: 7px;
+			right: 0;
+			z-index: 5;
+
+			.qodef-svg--close {
+				display: block;
+
+				line {
+					stroke-dasharray: 16;
+					stroke-dashoffset: 32;
+					transition: stroke-dashoffset .6s $special-easing;
+
+					&:nth-of-type(2) {
+						transition-delay: .3s;
+					}
+				}
+			}
+
+			&:hover {
+
+				.qodef-svg--close {
+
+					line {
+						stroke-dashoffset: 0;
+					}
+				}
+			}
+		}
+
+		.qodef-m-order-details {
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-top: 25px;
+			padding: 20px 40px;
+			background: $additional-background-color;
+
+			> * {
+				margin: 0;
+			}
+
+			strong {
+				@include qodefHeadingStyle($heading: h6, $with-color: false);
+				font-size: 14px;
+			}
+
+			.amount {
+				@include qodefHeadingStyle();
+				font-size: 22px;
+			}
+		}
+
+		.qodef-m-action {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			padding: 40px;
+		}
+
+		.qodef-m-action-link {
+			@include qodefButtonDefaultStyle();
+			@include qodefButtonSize(full);
+			@include qodefButtonOutlinedColor();
+
+			&:hover {
+				@include qodefButtonOutlinedHoverColor(!important);
+			}
+		}
+	}
+
+	&.qodef--opened {
+
+		.qodef-widget-side-area-cart-content {
+			left: 0;
+			visibility: visible;
+		}
+	}
+}
+
+.qodef-woo-side-area-cart-cover {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	background: rgba(0, 0, 0, .2);
+	height: 100vh;
+	overflow: hidden;
+	z-index: 97;
+	opacity: 0;
+	transition: opacity .6s ease-out;
+
+	.qodef-side-cart-opened & {
+		opacity: 1;
+	}
+}

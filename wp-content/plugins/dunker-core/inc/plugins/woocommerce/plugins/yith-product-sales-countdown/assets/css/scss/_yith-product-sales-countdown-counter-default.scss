@@ -1,0 +1,75 @@
+/* ==========================================================================
+   YITH Countdown counter default styles
+   ========================================================================== */
+
+.qodef-yith-wcpc--predefined {
+
+    div.ywpc-countdown {
+        margin: 33px 0 40px;
+
+        .ywpc {
+
+            &-timer {
+                display: flex;
+                border-left: 1px solid $border-color;
+            }
+
+            &-days,
+            &-hours,
+            &-minutes,
+            &-seconds {
+                margin: 0 !important;
+                padding: 16px 0 10px 33px;
+                vertical-align: middle;
+                display: inline-flex !important;
+                flex-direction: column-reverse;
+                font-family: $text-font;
+                width: 138px !important;
+                border: 1px solid $border-color;
+                border-left: none;
+
+                > div.ywpc-label {
+                    @include qodefInfoStyle($important: !important);
+                }
+
+                @include qodefScreenSize680 {
+                    padding: 16px 0 10px 0;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+            &-hours,
+            &-minutes,
+            &-seconds {
+                position: relative;
+            }
+
+            &-amount {
+                line-height: 1em;
+                background-color: transparent !important;
+                height: auto !important;
+                width: auto !important;
+                margin: 0 !important;
+                text-align: left;
+                padding: 0;
+
+                > span {
+                    @include qodefHeadingStyle($heading: h3, $important: !important);
+                    background-color: transparent !important;
+                    border: none !important;
+                    height: auto !important;
+                    line-height: 1em !important;
+                    margin: 0 !important;
+                    vertical-align: middle;
+                    width: auto !important;
+                    text-align: left;
+
+                    @include qodefScreenSize680 {
+                        font-size: 24px !important;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.qodef-banner-carousel {
+
+    .qodef-m-item-inner {
+        position: absolute;
+        @include qodefAbsoluteLayout();
+        z-index: 3;
+        color: var(--qode-light-gray-color);
+        padding: 38px 51px;
+        max-width: 750px;
+
+        .qodef-e-tagline {
+            @include qodefInfoStyle(var(--qode-light-gray-color));
+        }
+
+        .qodef-e-title {
+            color: var(--qode-main-color);
+            margin: 10px 0 6px;
+        }
+
+        @include qodefScreenSize680 {
+            padding: 18px 25px;
+        }
+    }
+
+    .qodef-skin--light {
+        .qodef-e-title {
+            color: #fff;
+        }
+    }
+
+    .qodef-e-link {
+        position: absolute;
+        @include qodefAbsoluteLayout();
+        z-index: 2;
+    }
+
+    .qodef-m-image img {
+        object-fit: cover;
+    }
+}
+
+.swiper-button-prev.swiper-button-outside {
+    left: calc(50% + 55px) !important;
+    transform: translate(-50vw, -50%);
+}
+
+.swiper-button-next.swiper-button-outside {
+    right: calc(50% + 55px)!important;
+    transform: translate(50vw, -50%);
+}

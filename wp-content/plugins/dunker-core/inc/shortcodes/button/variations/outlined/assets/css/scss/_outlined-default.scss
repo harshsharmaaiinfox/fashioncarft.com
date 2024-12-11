@@ -1,0 +1,11 @@
+.qodef-button {
+
+    &.qodef-layout--outlined {
+        @include qodefButtonOutlinedColor();
+        min-width: 221px;
+
+        &:hover {
+            @include qodefButtonOutlinedHoverColor();
+        }
+    }
+}

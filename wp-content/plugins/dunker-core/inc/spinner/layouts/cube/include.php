@@ -1,0 +1,3 @@
+<?php
+
+include_once DUNKER_CORE_INC_PATH . '/spinner/layouts/cube/helper.php';

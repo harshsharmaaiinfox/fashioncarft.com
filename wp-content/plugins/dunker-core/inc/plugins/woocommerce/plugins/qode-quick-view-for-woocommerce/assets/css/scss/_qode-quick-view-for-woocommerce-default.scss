@@ -1,0 +1,44 @@
+/* ==========================================================================
+   Qode Quick View For WooCommerce - Button styles - begin
+   ========================================================================== */
+
+.qqvfw-quick-view-button-wrapper {
+
+	&.qodef-dunker-theme {
+
+		.qodef-woo-product-list .product:has(.qwfw-add-to-wishlist-wrapper) &,
+		#qodef-woo-page .qodef-woo-product-list .product:has(.qwfw-add-to-wishlist-wrapper) & {
+			top: calc(15px + 5px + 55px);
+		}
+
+		.qodef-woo-product-list &,
+		#qodef-woo-page .qodef-woo-product-list & {
+			position: absolute;
+			top: 15px;
+			right: 15px;
+
+			.qqvfw-quick-view-button.qqvfw-shortcode {
+				position: relative;
+				top: auto;
+				left: auto;
+				right: auto;
+				bottom: auto;
+				min-width: 55px;
+				min-height: 55px;
+				justify-content: center;
+				border-radius: 50%;
+				color: $heading-color;
+				background-color: #fff;
+
+				.qqvfw-m-text {
+					display: none;
+				}
+
+				&:hover {
+					color: #fff;
+					background-color: $heading-color;
+				}
+			}
+		}
+	}
+}

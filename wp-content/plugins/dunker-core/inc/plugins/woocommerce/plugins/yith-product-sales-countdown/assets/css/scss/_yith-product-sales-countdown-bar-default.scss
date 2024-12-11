@@ -1,0 +1,14 @@
+/* ==========================================================================
+   YITH Countdown bar default styles
+   ========================================================================== */
+
+.qodef-yith-wcpc--predefined .ywpc {
+    &-back {
+        background-color: $additional-background-color !important;
+        margin: 0 !important;
+    }
+
+    &-fore {
+        background-color: var(--qode-main-color) !important;
+    }
+}

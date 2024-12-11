@@ -1,0 +1,184 @@
+@import '../../../../../../../../../../themes/dunker/inc/woocommerce/assets/css/scss/woo-mixins';
+
+.yith-wcwl-form {
+
+	.woocommerce-message {
+		align-items: center;
+		justify-content: center;
+	}
+
+	.wishlist-title-container {
+		display: none !important;
+	}
+
+	.shop_table {
+		@include qodefWooTableStyle();
+		font-size: 100%;
+		border-bottom: 1px solid $border-color;
+	}
+
+	.wishlist_table {
+
+		// overrides
+		&.shop_table {
+
+			thead th {
+				display: none
+			}
+
+			tr {
+
+				th {
+					background: transparent !important;
+
+					&.product-remove {
+						width: auto !important;
+					}
+				}
+
+				td {
+					background: transparent !important;
+					color: $text-color !important;
+					border-color: transparent !important;
+
+					&.product-remove {
+
+						@include qodefScreenSize680 {
+							width: 13px;
+						}
+					}
+
+					&.product-thumbnail {
+						@include qodefScreenSize680 {
+							display: block !important;
+							padding-left: 16px !important;
+							padding-bottom: 2px !important;
+							width: auto;
+						}
+					}
+
+					&.product-name {
+
+						@include qodefScreenSize680 {
+							flex-basis: calc(100% - 13px);
+							padding: 16px 30px 0;
+						}
+					}
+
+					&.product-price {
+						white-space: nowrap;
+
+						ins {
+							text-decoration: none;
+						}
+
+						@include qodefScreenSize680 {
+							flex-basis: 100%;
+							padding: 16px 30px;
+							text-align: left;
+						}
+					}
+				}
+
+				@include qodefScreenSize680 {
+					display: flex;
+					flex-flow: wrap;
+				}
+			}
+
+			.wishlist-empty {
+				@include qodefButtonTypographyStyle();
+				text-transform: uppercase;
+			}
+		}
+
+		.product-add-to-cart {
+			min-width: 245px;
+
+			.button,
+			.add_to_cart,
+			.added_to_cart {
+				@include qodefWooButtonsStyle($important: !important);
+				align-items: center;
+			}
+
+
+			.qodef-m-cart-icon {
+				margin-left: 15px;
+
+				svg {
+					fill: currentColor;
+				}
+			}
+
+			@include qodefScreenSize680 {
+				flex-basis: 100%;
+				text-align: left !important;
+				padding-left: 30px;
+			}
+		}
+	}
+}
+
+.qodef-yith-wcwl--predefined {
+
+	.yith-wcwl-add-to-wishlist {
+		font-size: 0 !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		line-height: 1 !important;
+		width: 55px;
+		height: 55px;
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		background-color: #fff;
+		border-radius: 50%;
+		transition: background-color .5s $special-easing;
+		z-index: 1;
+
+		a {
+
+			&:before {
+				content: '';
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				width: 100%;
+				height: 100%;
+				background-color: var(--qode-main-color);
+				mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNi45MzIiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNi45MzIgMTYiPg0KICA8cGF0aCBkPSJNOC40NjcgMTZhMS43NTYgMS43NTYgMCAwIDEtLjk0LS4yNzNjLS42Ny0uNDIyLTYuNTc2LTQuMjU0LTcuNDI1LTguNzc2YTYuMTU0IDYuMTU0IDAgMCAxIDEuMjctNC45NzdBNS4xNzcgNS4xNzcgMCAwIDEgNS4zNTYgMGE0LjM2OSA0LjM2OSAwIDAgMSAzLjExMSAxLjA4NkE0LjE4NSA0LjE4NSAwIDAgMSAxMS41NzcgMGE1LjE4IDUuMTggMCAwIDEgMy45ODMgMS45NzMgNi4xNTcgNi4xNTcgMCAwIDEgMS4yNjkgNC45NzdjLS44NDkgNC41MjItNi43NTUgOC4zNTQtNy40MjYgOC43NzdhMS43NTMgMS43NTMgMCAwIDEtLjkzNi4yNzNaTTUuMzU2IDJBMy4xODYgMy4xODYgMCAwIDAgMi45MiAzLjI0MWE0LjEzMyA0LjEzMyAwIDAgMC0uODUzIDMuMzQxYy42NDYgMy40MzkgNS41NDMgNi44MDYgNi40IDcuMzcxLjg1Ny0uNTY1IDUuNzU0LTMuOTMyIDYuNC03LjM3MWE0LjEzNiA0LjEzNiAwIDAgMC0uODUxLTMuMzQxQTMuMTkyIDMuMTkyIDAgMCAwIDExLjU3NyAyYTMuMDIxIDMuMDIxIDAgMCAwLTIuMzU0IDEuMTIyIDEgMSAwIDAgMS0uNzU2LjM0NiAxIDEgMCAwIDEtLjc1Ni0uMzQ1QTMuMDI0IDMuMDI0IDAgMCAwIDUuMzU2IDJaIi8+DQo8L3N2Zz4=");
+				mask-repeat: no-repeat;
+				mask-position: center;
+				mask-size: auto;
+				transition: background-color .5s $special-easing;
+			}
+		}
+
+		&.exists, &:hover {
+			background-color: var(--qode-main-color);
+
+			a {
+				&:before {
+					background-color: #fff;
+				}
+			}
+		}
+
+		.feedback,
+		.blockOverlay,
+		.view-wishlist,
+		span,
+		i {
+			display: none !important;
+		}
+	}
+
+	#yith-wcwl-popup-message {
+		display: none !important;
+	}
+
+	.yith-wcwl-share {
+		display: none !important;
+	}
+}

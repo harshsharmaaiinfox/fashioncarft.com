@@ -1,0 +1,46 @@
+/* ==========================================================================
+   #Content bottom styles - start
+   ========================================================================== */
+
+#qodef-page-content-bottom {
+	background: $additional-background-color;
+	padding: 124px 0 74px;
+
+	@include qodefScreenSize1024 {
+		padding: 120px 0 20px;
+	}
+
+	.qodef-widgets-inline {
+		display: grid;
+		grid-template-columns: repeat(4,minmax(0,1fr));
+
+		@include qodefScreenSize1024 {
+			grid-template-columns: repeat(2,minmax(0,1fr));
+		}
+
+		@include qodefScreenSize680 {
+			grid-template-columns: 1fr;
+		}
+
+		.widget{
+
+			@include qodefScreenSize1024 {
+				margin-bottom: 50px !important;
+			}
+
+			@media (min-width: 1600px) {
+				padding-right: 20%;
+			}
+		}
+	}
+
+	#qodef-page-content-bottom-inner.qodef-skin--light {
+		h1,h2,h3,h4,h5,h6 {
+			color: inherit;
+		}
+	}
+}
+
+/* ==========================================================================
+   #Content bottom - end
+   ========================================================================== */

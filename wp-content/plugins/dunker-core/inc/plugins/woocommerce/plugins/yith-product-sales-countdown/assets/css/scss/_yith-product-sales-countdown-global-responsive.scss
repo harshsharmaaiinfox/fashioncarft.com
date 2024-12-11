@@ -1,0 +1,31 @@
+/* ==========================================================================
+   YITH Countdown global default styles
+   ========================================================================== */
+
+.qodef-yith-wcpc--predefined .ywpc {
+
+    @include qodefScreenSize680() {
+
+        &-countdown,
+        &-sale-bar {
+            .ywpc-header {
+                border-bottom: 1px solid #ffffff;
+                padding: 15px 23px;
+                width: 100%;
+            }
+        }
+
+        &-countdown {
+            .ywpc-timer {
+                width: 100%;
+                display: flex;
+            }
+        }
+
+        &-sale-bar {
+            .ywpc-bar {
+                width: 100%;
+            }
+        }
+    }
+}

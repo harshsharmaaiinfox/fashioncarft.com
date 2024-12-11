@@ -1,0 +1,110 @@
+/* ==========================================================================
+   Interactive Product Categories Interactive List styles
+   ========================================================================== */
+
+.qodef-interactive-product-categories {
+
+	&.qodef-layout--interactive-list {
+
+		.qodef-m-items {
+			position: relative;
+			display: block;
+
+			&:after {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: calc(100% - 1px); //Hide last line
+				z-index: -3;
+				background: repeating-linear-gradient(transparent, transparent 130px, $border-color 131px, $border-color 131px);
+
+				@include qodefScreenSize1024 {
+					height: calc(100% - 3px);
+					background: repeating-linear-gradient(transparent, transparent 118px, $border-color 119px, $border-color 119px);
+				}
+
+				@include qodefScreenSize680 {
+					background: repeating-linear-gradient(transparent, transparent 102px, $border-color 103px, $border-color 103px);
+				}
+			}
+
+			@include qodefScreenSize1024 {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+		}
+
+		.qodef-m-item {
+			padding: 27px 33px 28px;
+			display: inline-flex;
+			margin: 0;
+			background-color: transparent;
+			position: relative;
+
+			@include qodefScreenSize1024 {
+				display: flex;
+				padding-left: 6px;
+				padding-right: 6px;
+			}
+
+			&.qodef--active {
+
+				.qodef-e-follow-content {
+					opacity: 1;
+				}
+			}
+		}
+
+		.qodef-e-count {
+			position: absolute;
+			top: -20px;
+			left: calc(100% + 10px);
+			font-size: 14px;
+			font-family: $text-font;
+		}
+
+		.qodef-e-title {
+			position: relative;
+			@include qodefHeadingStyle(h1, false);
+			display: block;
+			white-space: nowrap;
+			z-index: 3;
+
+			@include qodefScreenSize680 {
+				font-size: 48px;
+			}
+		}
+
+		.qodef-e-follow-content {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: auto;
+			opacity: 0;
+			transition: opacity .3s ease-out;
+			pointer-events: none;
+			z-index: 2;
+		}
+
+		.qodef-e-follow-image {
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			width: auto;
+			transform: translate3d(-50%, -50%, 0);
+			overflow: visible;
+
+			img {
+				position: relative;
+				display: block;
+				width: auto;
+				max-width: 300px;
+				top: 25%;
+				transform: translateY(-25%);
+			}
+		}
+	}
+}

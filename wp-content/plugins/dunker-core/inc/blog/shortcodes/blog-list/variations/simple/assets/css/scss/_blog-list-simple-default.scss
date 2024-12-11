@@ -1,0 +1,44 @@
+/* ==========================================================================
+   Blog List Minimal styles
+   ========================================================================== */
+
+.qodef-blog {
+	
+	&.qodef-item-layout--simple {
+
+		.qodef-grid-inner {
+			overflow: hidden;
+		}
+
+		article {
+
+			.qodef-e-top-holder {
+				margin-bottom: 7px;
+			}
+
+			&:after {
+				position: absolute;
+				width: 1px;
+				top: 0;
+				height: calc(100% - 8px);
+				content: '';
+				background: $border-color;
+				right: calc(-1 * var(--qode-columns-gap) / 2);
+			}
+
+			.qodef-e-bottom-holder {
+				margin-top: 16px;
+			}
+		}
+
+		&.qodef-column-separator--hidden {
+
+			article {
+
+				&:after {
+					display: none;
+				}
+			}
+		}
+	}
+}

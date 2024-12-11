@@ -1,0 +1,73 @@
+/* ==========================================================================
+   Single Post Navigation styles
+   ========================================================================== */
+
+#qodef-single-portfolio-navigation {
+	@include qodefRelativeLayout();
+	margin: 70px 0 3px;
+
+	.qodef-m-inner {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.qodef-m-nav {
+		position: relative;
+		display: flex;
+		align-items: center;
+		
+		> * {
+			display: block;
+			line-height: inherit;
+		}
+
+		&.qodef--prev, &.qodef--next{
+			width: 55px;
+			height: 55px;
+			border-radius: 50%;
+			justify-content: center;
+			transition: color $transition-timing, background-color $transition-timing;
+
+			&:hover {
+				background-color: var(--qode-main-color);
+				color: #fff;
+			}
+		}
+		
+		&.qodef--prev {
+			
+			.qodef-m-nav-icon {
+				margin-right: 5px;
+			}
+		}
+		
+		&.qodef--next {
+			flex-direction: row-reverse;
+			text-align: right;
+			margin-left: auto;
+			
+			.qodef-m-nav-icon {
+				margin-left: 5px;
+			}
+		}
+		
+		&.qodef--back-link {
+			position: absolute;
+			left: calc(50% - 16px); // 16 is half size of icon size
+			
+			.qodef-m-nav-icon {
+				font-size: 32px;
+			}
+		}
+	}
+	
+	.qodef-m-nav-icon {
+		font-size: 30px;
+	}
+	
+	.qodef-m-nav-label {
+		@include qodefHeadingStyle(h6, false);
+	}
+}

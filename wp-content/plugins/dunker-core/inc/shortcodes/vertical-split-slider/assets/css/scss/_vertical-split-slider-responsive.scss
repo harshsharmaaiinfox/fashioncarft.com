@@ -1,0 +1,59 @@
+.qodef-vertical-split-slider {
+
+	@mixin responsive-common() {
+		display: none;
+
+		+ .qodef-vertical-split-slider-responsive {
+			display: block;
+
+			.qodef-m-slide-content {
+				padding: 10% 10% 10% 40px;
+			}
+
+			.qodef-m-slide-image {
+				min-height: 50vh;
+			}
+
+			.qodef-m-label-holder {
+				left: 0;
+				right: auto;
+			}
+		}
+	}
+
+	&.qodef-disable-below--1024 {
+		@include qodefScreenSize1024() {
+			@include responsive-common();
+		}
+	}
+
+	&.qodef-disable-below--768 {
+		@include qodefScreenSize768() {
+			@include responsive-common();
+		}
+	}
+}
+
+
+.qodef-vertical-split-slider,
+.qodef-vertical-split-slider-responsive {
+
+	@include qodefScreenSize1440() {
+		$label-size: 140px;
+
+		.qodef-m-label-holder {
+			height: $label-size;
+			width: $label-size;
+		}
+
+		.qodef-m-image {
+			height: $label-size;
+			width: $label-size;
+
+			img {
+				height: $label-size;
+				width: $label-size;
+			}
+		}
+	}
+}

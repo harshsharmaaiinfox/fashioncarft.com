@@ -1,0 +1,123 @@
+/* ==========================================================================
+   YITH Countdown global default styles
+   ========================================================================== */
+
+$single-width: 100%;
+
+.qodef-yith-wcpc--predefined .ywpc {
+    //////// common
+
+    &-label {
+        text-transform: initial !important;
+    }
+
+    /////// archive
+    &-countdown-loop,
+    &-sale-bar-loop {
+        margin: 0;
+
+        .ywpc-header {
+            display: none !important;
+        }
+
+        .ywpc-timer {
+            display: grid;
+            grid-template-columns: repeat(4,minmax(0,1fr));
+
+            > div {
+                border: 1px solid $border-color;
+                border-left-width: 0;
+                flex-direction: column-reverse;
+                align-items: flex-start;
+                width: auto;
+                padding: 10px 5px 5px 25%;
+                display: flex;
+
+                > .ywpc-amount {
+
+                    > span {
+                        border: none;
+                        background-color: transparent;
+                        width: auto;
+                        height: auto;
+                        margin: 0;
+                        @include qodefHeadingStyle(h5);
+                    }
+                }
+
+                > .ywpc-label {
+                    @include qodefInfoStyle($important: !important);
+                }
+
+                &:first-child {
+                    border-left-width: 1px;
+                }
+            }
+        }
+    }
+
+    /////// single
+    &-countdown,
+    &-sale-bar {
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        text-align: left;
+
+        .ywpc-header {
+            display: none;
+        }
+    }
+
+    &-countdown {
+        .ywpc-timer {
+            width: $single-width;
+            text-align: left;
+        }
+    }
+
+    &-sale-bar {
+        .ywpc-bar {
+            width: $single-width;
+        }
+    }
+
+    &-countdown-topbar {
+        background-color: var(--qode-main-color);
+
+        .ywpc-header {
+            @include qodefHeadingStyle(h4, false);
+            color: var(--qode-header-light-color);
+        }
+
+        .ywpc-timer {
+            display: inline-flex;
+            justify-content: flex-end;
+
+            .ywpc-label {
+                @include qodefInfoStyle($important: !important);
+            }
+
+            .ywpc-amount {
+                border-color: transparent;
+                background-color: transparent;
+                display: flex;
+                margin: 0;
+                height: auto;
+                width: auto;
+
+                span {
+                    @include qodefHeadingStyle(h4, false);
+                    color: var(--qode-header-light-color);
+                }
+            }
+
+            > div {
+                margin: 0;
+                display: flex;
+                flex-direction: column-reverse;
+                padding: 10px 25px 5px;
+            }
+        }
+    }
+}

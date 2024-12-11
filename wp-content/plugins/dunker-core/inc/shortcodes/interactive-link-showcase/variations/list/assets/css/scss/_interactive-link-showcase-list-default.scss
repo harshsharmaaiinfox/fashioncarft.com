@@ -1,0 +1,51 @@
+/* ==========================================================================
+   Interactive Link Showcase List styles
+   ========================================================================== */
+
+.qodef-interactive-link-showcase {
+
+	&.qodef-layout--list {
+		padding: 0;
+		height: auto;
+		
+		.qodef-m-images {
+			position: absolute;
+			top: 0;
+			right: 0;
+			display: block;
+			margin-left: auto;
+			width: 66%;
+			height: 100%;
+			overflow: hidden;
+
+			@include qodefScreenSize1024 {
+				width: 60%;
+			}
+
+			.qodef-m-image {
+				border: 1px solid $border-color;
+			}
+		}
+		
+		.qodef-m-items {
+			position: relative;
+			width: 34%;
+			justify-content: center;
+			align-items: flex-start;
+			flex-direction: column;
+			padding: 70px 0 60px;
+
+			@include qodefScreenSize1024 {
+				width: 40%;
+			}
+		}
+
+		.qodef-m-item {
+			@include qodefInlineUnderline($position-y: 1.04em, $height: 2px);
+
+			&.qodef--active {
+				@include qodefInlineUnderlineHover();
+			}
+		}
+	}
+}

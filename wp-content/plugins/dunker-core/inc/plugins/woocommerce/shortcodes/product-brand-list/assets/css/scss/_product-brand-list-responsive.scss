@@ -1,0 +1,13 @@
+/* ==========================================================================
+   Product Brand List responsive styles
+   ========================================================================== */
+
+.qodef-woo-product-brand-list {
+
+	@include qodefScreenSize680 {
+
+		.qodef-e.qodef-grid-item  {
+			border-bottom: 1px solid $border-color;
+		}
+	}
+}

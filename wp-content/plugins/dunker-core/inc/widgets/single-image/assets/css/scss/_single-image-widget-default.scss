@@ -1,0 +1,26 @@
+/* ==========================================================================
+   Single image widget static style start
+   ========================================================================== */
+
+.qodef-single-image-widget {
+	position: relative;
+	display: flex;
+	justify-content: center;
+
+	.qodef-single-image-dark-skin {
+
+		.qodef-skin--light & {
+			opacity: 0;
+		}
+	}
+
+	.qodef-single-image-light-skin {
+		position: absolute;
+		top: 0;
+		opacity: 0;
+
+		.qodef-skin--light & {
+			opacity: 1;
+		}
+	}
+}

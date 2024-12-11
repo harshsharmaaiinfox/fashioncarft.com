@@ -1,0 +1,145 @@
+/* ==========================================================================
+   #Footer styles - start
+   ========================================================================== */
+
+#qodef-page-footer {
+
+	.qodef-alignment--left {
+		text-align: left;
+
+		.widget {
+
+			img {
+				margin-right: auto;
+			}
+		}
+	}
+
+	.qodef-alignment--center {
+		text-align: center;
+
+		.widget {
+
+			img {
+				margin-right: auto;
+				margin-left: auto;
+			}
+		}
+	}
+
+	.qodef-alignment--right {
+		text-align: right;
+
+		.widget {
+
+			img {
+				margin-left: auto;
+			}
+		}
+	}
+}
+
+
+#qodef-page-footer-middle-area-inner {
+
+	.qodef-col-num--3.qodef-proportion--custom {
+
+		.qodef-grid-inner {
+			--qode-columns: 4;
+
+			@include qodefScreenSize1024 {
+				--qode-columns: 2
+			}
+
+			@include qodefScreenSize680 {
+				--qode-columns: 1
+			}
+		}
+
+		.qodef-grid-item:first-of-type {
+			grid-column-start: 1;
+			grid-column-end: 3;
+		}
+
+		@include qodefScreenSize480 {
+
+			.qodef-grid-item {
+				grid-column-start: 1;
+				grid-column-end: 3;
+			}
+		}
+	}
+}
+
+#qodef-page-footer-bottom-area-inner {
+
+	.qodef-alignment--space-between {
+
+		.qodef-grid-item {
+
+			&:nth-child(2) {
+
+				@media (min-width: $screen-size-681) {
+					text-align: right;
+				}
+			}
+		}
+	}
+}
+
+#qodef-page-footer-top-area,
+#qodef-page-footer-middle-area,
+#qodef-page-footer-bottom-area {
+	background-size: cover;
+}
+
+#qodef-page-footer-top-area-inner,
+#qodef-page-footer-middle-area-inner,
+#qodef-page-footer-bottom-area-inner {
+	&.qodef-skin--light {
+		border-color: #2E2E2E;
+		color: #ffffff;
+
+		input[type="text"],
+		input[type="email"],
+		input[type="url"],
+		input[type="password"],
+		input[type="number"],
+		input[type="tel"],
+		input[type="search"],
+		input[type="date"],
+		textarea,
+		select {
+			background: transparent;
+			border-color: $border-color;
+
+			&:focus {
+				color: #ffffff;
+			}
+		}
+
+		button[type=submit] {
+			color: #ffffff;
+		}
+	}
+}
+
+.qodef-page-footer--uncover {
+	
+	#qodef-page-outer {
+		z-index: 90; // needs to be larger than the footer and lower than the header
+	}
+	
+	#qodef-page-footer {
+		
+		.no-touchevents & {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+		}
+	}
+}
+
+/* ==========================================================================
+   #Footer styles - end
+   ========================================================================== */

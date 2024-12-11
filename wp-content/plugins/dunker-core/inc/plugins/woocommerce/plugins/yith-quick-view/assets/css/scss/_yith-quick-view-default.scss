@@ -1,0 +1,124 @@
+#yith-quick-view-modal {
+
+    .yith-quick-view-overlay {
+        background: rgba(#fff, .79) !important;
+    }
+
+    .yith-wcqv-wrapper {
+        height: auto !important;
+        width: 960px !important;
+        max-width: 90vw !important;
+    }
+
+    .yith-wcqv-main {
+        box-shadow: $box-shadow !important;
+        overflow-y: hidden !important;
+        max-height: 90vh !important;
+    }
+
+    #yith-quick-view-content.single-product {
+
+        .qodef-woo-single-inner {
+            margin: 0;
+
+            > * {
+                padding: 0;
+            }
+        }
+
+        .qodef-woo-single-image {
+            align-self: stretch;
+
+            .qodef-woo-product-mark {
+                transform: translateX(0);
+            }
+
+            *:not(.qodef-woo-product-mark) {
+                height: 100%;
+            }
+
+            .woocommerce-product-gallery {
+
+                .woocommerce-product-gallery__wrapper {
+                    margin: 0 !important;
+
+                    img {
+                        object-fit: cover;
+                    }
+
+                    > .woocommerce-product-gallery__image {
+                        width: 100% !important;
+                        margin: 0 !important;
+                    }
+
+                    > .qodef-woo-thumbnails-wrapper {
+                        display: none !important;
+                    }
+                }
+            }
+        }
+
+        .entry-summary {
+            align-self: center;
+            padding: 30px;
+        }
+    }
+
+    #yith-quick-view-close {
+        border: 0 !important;
+        font-size: 0;
+        line-height: 1;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 25px;
+        height: 25px;
+
+        &:after {
+            display: block;
+            line-height: 25px;
+            padding: 0 3px;
+            position: relative;
+
+            @include qodefIconType('remove', 18px);
+        }
+    }
+
+    .qodef-yith-wcqv-link {
+        margin-top: 38px;
+    }
+}
+
+.qodef-yith-wcqv--predefined {
+
+    .yith-wcqv-button {
+        font-size: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 1 !important;
+        background-color: transparent !important;
+
+        &:before {
+            font-size: 22px;
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 400;
+            content: "\f06e";
+        }
+
+    }
+
+    .qodef-e-media-inner {
+
+        .yith-wcqv-button {
+            color: #fff !important;
+
+            &:hover {
+                color: var(--qode-main-color) !important;
+            }
+
+            .blockUI {
+                display: none !important;
+            }
+        }
+    }
+}

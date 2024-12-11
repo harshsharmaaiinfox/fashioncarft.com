@@ -1,0 +1,44 @@
+.qodef-swiper--show-drag-cursor {
+	cursor: none !important;
+
+	.swiper-wrapper {
+		min-width: 300vw;
+	}
+
+	.qodef-m-custom-cursor {
+		height: 120px;
+		left: 50%;
+		opacity: 0;
+		pointer-events: none;
+		position: fixed;
+		top: 50%;
+		transition: opacity .3s ease-out, visibility .3s ease-out;
+		visibility: hidden;
+		width: 120px;
+		z-index: 2;
+	}
+
+	.qodef-m-custom-cursor-inner {
+		border-radius: 50%;
+		display: block;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
+
+	&.qodef-swiper-drag-cursor--active {
+
+		.qodef-m-custom-cursor {
+			opacity: 1;
+			visibility: visible;
+		}
+
+		a {
+			cursor: none !important;
+		}
+	}
+
+}

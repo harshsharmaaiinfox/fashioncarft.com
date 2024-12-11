@@ -1,0 +1,104 @@
+/* ==========================================================================
+Clients list shortcode style - start
+==========================================================================*/
+
+.qodef-clients-list {
+
+	.qodef-e {
+		@include qodefRelativeLayout();
+	}
+
+	.qodef-grid-inner {
+		--qode-columns: 3;
+		--qode-columns-gap: 1px;
+		padding: 1px;
+		margin: 0;
+		list-style: none;
+
+		@for $i from 0 to $grid-columns-layout-size {
+			$step: $i + 1;
+
+			&.columns-#{$step} {
+				--qode-columns: #{$step};
+			}
+		}
+
+		> .qodef-grid-item {
+			outline: 1px solid $border-color;
+		}
+	}
+
+	.qodef-e {
+
+		.qodef-e-inner {
+			margin: 1px;
+			width: calc(100% - 2px);
+			height: calc(100% - 2px);
+			z-index: 9;
+			outline: 2px solid transparent;
+			transition: outline .5s cubic-bezier(0.65, 0, 0.35, 1);
+			text-align: center;
+		}
+
+		&:hover {
+
+			.qodef-e-inner {
+				outline: 2px solid #000;
+			}
+		}
+	}
+
+	@for $i from 0 to length($grid-columns-gutter-label) {
+		&.qodef-gutter--#{nth($grid-columns-gutter-label,$i+1)} {
+			$gutter-size: nth($grid-columns-gutter-size, $i+1);
+
+			ul.products {
+				--qode-columns-gap: #{$gutter-size}px;
+			}
+
+			&.qodef-item-border--yes {
+				ul.products {
+					--qode-columns-gap: #{$gutter-size + 1}px;
+				}
+			}
+		}
+	}
+
+	&.qodef-item-border--no {
+
+		.qodef-grid-inner {
+			--qode-columns-gap: 0;
+			padding: 0;
+
+			> .qodef-grid-item {
+				outline: none;
+			}
+		}
+
+		.qodef-e {
+			border: none;
+		}
+	}
+
+
+	&.qodef-side-border-enabled {
+
+		.qodef-e {
+
+			&:after {
+				content: '';
+				display: block;
+				position: absolute;
+				top: 0;
+				right: 0;
+				background-color: $border-color;
+				height: 100%;
+				width: 1px;
+			}
+		}
+	}
+}
+
+/*==========================================================================
+ Clients list shortcode style - end
+========================================================================== */

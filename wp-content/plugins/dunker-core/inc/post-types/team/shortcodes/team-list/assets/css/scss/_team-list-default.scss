@@ -1,0 +1,29 @@
+/* ==========================================================================
+   Team lists shortcode styles
+   ========================================================================== */
+
+.qodef-team-list {
+	
+	.qodef-e-role {
+		@include qodefInfoStyle();
+		margin: 0;
+	}
+	
+	.qodef-e-title {
+		margin: 2px 0 13px;
+	}
+	
+	.qodef-team-member-social-icons {
+		margin: 0;
+	}
+
+	&.qodef-item-border {
+
+		.qodef-e-inner {
+			border-width: 1px;
+			border-style: solid;
+			border-color: $border-color;
+
+		}
+	}
+}

@@ -1,0 +1,295 @@
+/* ==========================================================================
+   Qode WishList For WooCommerce - Add Wishlist Button styles - begin
+   ========================================================================== */
+
+@import '../../../../../../../../../../themes/dunker/inc/woocommerce/assets/css/scss/woo-mixins';
+
+.qwfw-add-to-wishlist-wrapper {
+
+	&.qodef-dunker-theme {
+
+		.qwfw-shortcode {
+
+			&:not(.button) {
+				transition: color .5s $special-easing, background-color .5s $special-easing, border-color .5s $special-easing;
+
+				.qwfw-spinner-icon {
+					color: currentColor;
+				}
+
+				.qwfw-m-icon svg {
+					stroke: none;
+				}
+			}
+		}
+
+		&.qwfw-position--on-thumbnail {
+			top: var(--qwfw-atw-thumb-top-offset, 15px);
+			left: var(--qwfw-atw-thumb-side-offset, 15px);
+
+			&.qwfw-thumb--top-right {
+				left: auto;
+				right: calc(var(--qwfw-atw-thumb-side-offset, 15px) + var(--qwfw-atw-thumb-offset-adjs, 0px));
+			}
+		}
+
+		&.qwfw--loop {
+
+			.qwfw-shortcode {
+
+				&:not(.button) {
+					min-width: 55px;
+					min-height: 55px;
+					justify-content: center;
+					border-radius: 50%;
+					color: var(--qwfw-atw-color, $heading-color);
+					background-color: var(--qwfw-atw-background-color, #fff);
+
+					&:hover,
+					&.qwfw--added {
+						color: var(--qwfw-atw-hover-color, #fff);
+						background-color: var(--qwfw-atw-hover-background-color, $heading-color);
+					}
+				}
+			}
+		}
+
+		&.qwfw--single {
+
+			.qwfw-shortcode {
+
+				&:not(.button) {
+					min-width: 64px;
+					min-height: 64px;
+					justify-content: center;
+					color: var(--qwfw-atw-color, $heading-color);
+					background-color: var(--qwfw-atw-background-color, #fff);
+					border: 1px solid $border-color;
+					border-radius: 2px;
+
+					&:hover,
+					&.qwfw--added {
+						color: var(--qwfw-atw-hover-color, #fff);
+						background-color: var(--qwfw-atw-hover-background-color, $heading-color);
+						border-color: $heading-color;
+					}
+				}
+			}
+
+			&.qwfw-position--after-add-to-cart {
+				margin-top: 0;
+
+				.qqvfw-m-product & {
+					margin: 20px 0;
+				}
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+   Qode WishList For WooCommerce - Wishlist Page styles - begin
+   ========================================================================== */
+
+.qwfw-wishlist-page {
+
+	.woocommerce-message,
+	.woocommerce-info,
+	.woocommerce-error {
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+.qwfw-wishlist-table {
+
+	&.qodef-dunker-theme {
+
+		.qwfw-m-items.shop_table {
+			@include qodefWooTableStyle();
+			font-size: 100%;
+			border-top: 1px solid $border-color;
+
+			thead th {
+				display: none;
+			}
+
+			tr {
+				border-bottom: 1px solid var(--qwfw-wt-border-color, $border-color);
+
+				td {
+
+					&.product-remove {
+						width: 53px;
+
+						a {
+
+							.qwfw-e-remove-button-icon svg {
+								width: 12px;
+							}
+
+							&:hover {
+								color: var(--qode-light-gray-color);
+							}
+						}
+					}
+
+					&.product-thumbnail {
+						width: 84px;
+						padding-left: 0;
+
+						a, img {
+							display: block;
+							width: 100%;
+							max-width: 100%;
+						}
+
+						img {
+							width: 84px;
+							height: 84px;
+							object-fit: cover;
+							border: 1px solid $border-color;
+						}
+					}
+
+					&.product-name {
+						text-align: left;
+
+						.qwfw-e-item-inner {
+							flex-direction: column-reverse;
+						}
+
+						.qwfw-e-item-name {
+							@include qodefHeadingStyle(h5);
+						}
+
+						.qwfw-e-item-category {
+							margin: 0;
+							@include qodefSubtitleStyle();
+
+							a {
+								color: var(--qode-dim-gray-color);
+							}
+						}
+					}
+
+					&.product-quantity {
+
+						input[type="number"] {
+							margin: 0;
+						}
+					}
+
+					&.product-price {
+						@include qodefHeadingStyle();
+						font-size: 22px;
+						width: 100px;
+						text-align: right;
+						padding-right: 22px;
+						white-space: nowrap;
+
+						ins {
+							text-decoration: none;
+						}
+					}
+
+					&.product-stock-status {
+						width: 100px;
+
+						.qwfw-e-item-stock {
+							@include qodefInfoStyle();
+						}
+					}
+
+					&.product-add-to-cart {
+						min-width: 245px;
+						width: 21%;
+						text-align: right;
+
+						.button,
+						.add_to_cart,
+						.added_to_cart {
+							@include qodefWooButtonsStyle($important: !important);
+							align-items: center;
+						}
+
+
+						.qodef-m-cart-icon {
+							margin-left: 15px;
+
+							svg {
+								fill: currentColor;
+							}
+						}
+					}
+				}
+			}
+
+			@include qodefScreenSize680 {
+
+				tr {
+					display: flex;
+					flex-flow: wrap;
+
+					td {
+
+						&.product-remove {
+							width: 23px;
+						}
+
+						&.product-thumbnail {
+							padding-left: 8px !important;
+							padding-bottom: 2px !important;
+							width: auto;
+						}
+
+						&.product-name {
+							flex-basis: calc(100% - 13px);
+							padding: 16px 30px 0;
+						}
+
+						&.product-price {
+							flex-basis: 100%;
+							padding: 16px 30px;
+							text-align: left;
+						}
+
+						&.product-subtotal {
+							display: none;
+						}
+
+						&.product-quantity {
+							padding-left: 0;
+
+							.qodef-quantity-buttons {
+								padding: 0 10px;
+							}
+						}
+
+						&.product-stock-status {
+							display: none;
+						}
+
+						&.product-add-to-cart {
+							flex-basis: 100%;
+							text-align: left !important;
+							padding-left: 30px;
+
+							.qwfw-e-item-inner {
+								align-items: flex-start;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.qwfw-m-not-found-title {
+			@include qodefButtonTypographyStyle();
+			padding: 24px 0;
+			text-transform: uppercase;
+			border-top: 1px solid $border-color;
+			border-bottom: 1px solid $border-color;
+		}
+	}
+}

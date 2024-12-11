@@ -1,0 +1,26 @@
+1.4
+- Added QODE Quick View for WooCommerce compatibility
+- Updated Qode Framework plugin to 1.2.3
+- Updated Dunker Core plugin to 1.0.3
+- Updated Revolution Slider plugin to 6.7.11
+- Improved QODE Wishlist for WooCommerce styles
+
+1.3
+- Added QODE Wishlist for WooCommerce compatibility
+- Updated Dunker Core plugin to 1.0.2
+- Updated Revolution Slider plugin to 6.6.20
+- Fixed duplicated YITH wishlist button on variable products when position after add to cart button is selected
+- Fixed Added to Cart button position for Info on Hover Product List
+
+1.2.1
+- Updated Revolution Slider plugin to 6.6.16
+
+1.2
+- Added WooCommerce 7.8.1 compatibility
+- Updated Revolution Slider plugin to 6.6.14
+
+1.1
+- Added WooCommerce 7.6.1 compatibility
+- Updated Qode Framework plugin to 1.2.2
+- Updated Dunker Core plugin to 1.0.1
+- Improved Demo Import functionality

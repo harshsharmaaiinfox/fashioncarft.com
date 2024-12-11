@@ -1,0 +1,98 @@
+.qodef-image-gallery {
+
+	&.qodef-popup-gallery {
+
+		.qodef-image-wrapper {
+
+			a {
+				position: relative;
+				display: block;
+				overflow: hidden;
+
+				img {
+					transform: scale(1.01) translateZ(0);
+					transition: transform .6s cubic-bezier(.61, 1, .88, 1);
+				}
+
+				&:hover {
+
+					img {
+						transform: scale(1.03) translateZ(0);
+					}
+				}
+			}
+		}
+	}
+
+	&.qodef-advanced-layout {
+
+		.qodef-ig-anchor-navigation-item {
+			display: none;
+		}
+
+		@media only screen and (min-width: $screen-size-681) {
+			position: relative;
+			overflow: hidden;
+			padding-top: 78px;
+
+			// pagination styles whe advanced layout is active
+			.swiper-pagination {
+				position: absolute !important;
+				top: 0;
+				margin: 0;
+				width: 100%;
+
+				&.swiper-pagination-bullets {
+					justify-content: center;
+				}
+
+				.swiper-pagination-bullet {
+					width: auto;
+					height: auto;
+					margin: 0 12px !important;
+					background-color: transparent;
+					border-radius: 0;
+					opacity: 1;
+
+					&:before,
+					&:after {
+						display: none !important;
+					}
+
+					&:first-child {
+						margin-left: 0 !important;
+					}
+
+					.qodef-ig-anchor-navigation-item {
+						display: block;
+						margin: 0;
+						position: relative;
+						@include qodefUnderline();
+					}
+
+					&.swiper-pagination-bullet-active,
+					&:hover {
+						transform: none;
+
+						.qodef-ig-anchor-navigation-item {
+							@include qodefUnderlineActive();
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.qodef-image-border {
+
+		.qodef-e {
+			color: $border-color;
+
+			img {
+				border-width: 1px;
+				border-style: solid;
+				border-color: currentColor;
+			}
+		}
+	}
+}

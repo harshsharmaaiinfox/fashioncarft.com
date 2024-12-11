@@ -1,0 +1,23 @@
+/* ==========================================================================
+   Button shortcode styles
+   ========================================================================== */
+
+.qodef-button {
+
+	&.qodef-html--link {
+		@include qodefButtonDefaultStyle();
+		@include qodefButtonSize();
+	}
+
+	&.qodef-size--small {
+		@include qodefButtonSize($size: small);
+	}
+
+	&.qodef-size--large {
+		@include qodefButtonSize($size: large);
+	}
+
+	&.qodef-size--full {
+		@include qodefButtonSize($size: full);
+	}
+}

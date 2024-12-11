@@ -1,0 +1,79 @@
+/* ==========================================================================
+   Title styles
+   ========================================================================== */
+
+.qodef-page-title {
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	&.qodef-image--responsive {
+		height: auto !important; // because of inline style
+		
+		.qodef-m-content {
+			position: absolute;
+			top: 0;
+			left: 0;
+			
+			&.qodef-content-grid {
+				left: 50%;
+				transform: translateX(-50%);
+			}
+		}
+	}
+	
+	&.qodef-alignment--center {
+		text-align: center;
+	}
+	
+	&.qodef-alignment--right {
+		text-align: right;
+	}
+	
+	.qodef-m-image {
+		@include qodefRelativeLayout();
+		
+		img {
+			display: block;
+			width: 100%;
+		}
+	}
+	
+	.qodef-m-content {
+		
+		&.qodef-content-full-width {
+			padding: $full-width-side-padding;
+		}
+	}
+
+	&.qodef-title--breadcrumbs {
+		height: 70px;
+	}
+	
+	.qodef-breadcrumbs {
+		
+		a, span {
+			@include qodefInfoStyle();
+		}
+		
+		a:hover {
+			color: var(--qode-main-color);
+
+			span {
+				color: var(--qode-main-color);
+			}
+		}
+
+		.qodef-breadcrumbs-current {
+			color: $heading-color;
+		}
+		
+		.qodef-breadcrumbs-separator {
+			margin: 0 10px;
+			
+			&:after {
+				content: '|';
+			}
+		}
+	}
+}

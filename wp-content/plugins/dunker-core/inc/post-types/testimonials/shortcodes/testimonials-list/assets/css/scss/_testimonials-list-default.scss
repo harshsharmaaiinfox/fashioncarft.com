@@ -1,0 +1,109 @@
+/* ==========================================================================
+   Testimonials list shortcode styles
+   ========================================================================== */
+
+.qodef-testimonials-list {
+
+	&.qodef-alignment--center {
+		text-align: center;
+	}
+
+	&.qodef-alignment--left {
+		text-align: left;
+	}
+
+	&.qodef-alignment--right {
+		text-align: right;
+	}
+	
+	.qodef-e-inner {
+		padding-bottom: 40px;
+	}
+
+	.qodef-e-static-tagline {
+		@include qodefInfoStyle();
+	}
+
+	.qodef-e-static-title {
+		margin: 0 0 40px;
+	}
+	
+	.qodef-e-media-image {
+		line-height: 0;
+		margin-bottom: 24px;
+
+		img {
+			width: auto;
+		}
+	}
+	
+	.qodef-e-title {
+		margin: 0 0 25px;
+	}
+	
+	.qodef-e-text {
+		margin: 0 0 33px;
+	}
+	
+	.qodef-e-author {
+		margin: 0;
+	}
+
+	.qodef-e-author-job {
+		font-size: 14px;
+		font-family: $text-font;
+		color: var(--qode-dim-gray-color);
+	}
+	
+	.swiper-pagination-bullets {
+		text-align: left;
+		bottom: 0 !important;
+		
+		.swiper-pagination-bullet {
+			&:before {
+				background-color: var(--qode-main-color);
+			}
+		}
+	}
+	
+	&.qodef-skin--light {
+		.qodef-e-title,
+		.qodef-e-text,
+		.qodef-e-author {
+			color: #fff;
+		}
+		
+		.swiper-pagination-bullet {
+			&:before {
+				background-color: #fff;
+			}
+		}
+	}
+}
+
+.qodef-testimonials-list-slider-wrapper {
+	position: relative;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='549' height='457.005' viewBox='0 0 549 457.005'%3E%3Cpath d='M214.118.5H.5v205.21h97.421a8.578 8.578 0 0 1 8.492 8.678v21c0 78.392-29.409 118.971-87.417 120.656V456.5c73.932-.79 130.76-24.29 168.932-69.905 39-46.56 58.765-108.994 58.765-185.572 0-64.941-10.963-132.382-32.575-200.523Zm300.194 0H300.638v205.21h99.089a8.579 8.579 0 0 1 8.493 8.678v21c0 78.426-29.97 119.008-89.1 120.663V456.5c73.958-.782 131.058-24.3 169.806-69.924 39.531-46.576 59.573-109 59.573-185.553C548.5 135.066 537.002 67.619 514.311.5Z' fill='none' stroke='%23d9d9d9'/%3E%3C/svg%3E");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 22px 12% 0 12%;
+
+	.swiper-button-prev {
+		left: 12% !important;
+
+		&.swiper-button-outside {
+			left: 0 !important;
+			transform: unset;
+		}
+	}
+
+	.swiper-button-next {
+		right: 12% !important;
+
+		&.swiper-button-outside {
+			right: 0!important;
+			transform: unset;
+		}
+	}
+}
